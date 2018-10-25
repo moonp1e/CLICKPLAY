@@ -3,8 +3,18 @@
    <description></description>
    <name>span_Betting</name>
    <tag></tag>
-   <elementGuidId>a1807de5-31ca-4a5e-ab5e-6df3ddf8a071</elementGuidId>
-   <selectorMethod>XPATH</selectorMethod>
+   <elementGuidId>c4d34123-914b-42e6-be2f-d6e117272190</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='nav_Betting']/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;nav_Betting&quot;)/span[1][count(. | //span[(text() = 'Betting' or . = 'Betting')]) = count(//span[(text() = 'Betting' or . = 'Betting')])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -21,7 +31,7 @@
       <value>Betting</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
@@ -37,13 +47,13 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dictionary'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OperatorLists'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bonus Codes'])[1]/following::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Operators'])[1]/following::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,6 +71,6 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//li[8]/a/span</value>
+      <value>//li[7]/a/span</value>
    </webElementXpaths>
 </WebElementEntity>

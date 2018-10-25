@@ -25,5 +25,23 @@ WebUI.setEncryptedText(findTestObject('ucf88_or/backoffice/login_or/input_Passwo
 
 WebUI.click(findTestObject('ucf88_or/backoffice/login_or/button_Login'))
 
-WebUI.verifyElementPresent(findTestObject('ucf88_or/backoffice/header_or/span_admin'), 3)
+WebUI.mouseOver(findTestObject('ucf88_or/backoffice/header_or/span_Betting'))
+
+WebUI.verifyElementPresent(findTestObject('ucf88_or/backoffice/header_or/span_Arena'), 2)
+
+WebUI.click(findTestObject('ucf88_or/backoffice/header_or/span_Arena'))
+
+WebUI.verifyElementPresent(findTestObject('ucf88_or/backoffice/createArena_or/button_Create Arena'), 2)
+
+WebUI.click(findTestObject('ucf88_or/backoffice/createArena_or/button_Create Arena'))
+
+WebUI.verifyElementPresent(findTestObject('ucf88_or/backoffice/header_or/h5_Add Arena'), 2)
+
+WebUI.setText(findTestObject('ucf88_or/backoffice/createArena_or/input_Name_name'), arenaName)
+
+WebUI.setText(findTestObject('ucf88_or/backoffice/createArena_or/input_Event Name_event_name'), eventName)
+
+WebUI.setText(findTestObject('ucf88_or/backoffice/createArena_or/input_Acronym_acronym'), acrnonym)
+
+WebUI.setText(findTestObject('ucf88_or/backoffice/createArena_or/input_Profit Margin ()_arena_p'), profitMargin)
 
