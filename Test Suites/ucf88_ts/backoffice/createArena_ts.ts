@@ -11,12 +11,6 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>6130e32d-201f-4534-9f8e-8d4b4992ea4f</testSuiteGuid>
    <testCaseLink>
-      <guid>d11256eb-f867-4a5a-82c0-baf5752eb3f8</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ucf88_tc/backoffice/login_tc</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>25460df3-6f64-4a91-9c01-5e8dd06f4ce1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
