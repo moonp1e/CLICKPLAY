@@ -41,7 +41,9 @@ WebUI.setText(findTestObject('ucf88_or/backoffice/createArena_or/input_Name_name
 
 WebUI.setText(findTestObject('ucf88_or/backoffice/createArena_or/input_Event Name_event_name'), eventName)
 
-WebUI.setText(findTestObject('ucf88_or/backoffice/createArena_or/input_Acronym_acronym'), acrnonym)
+WebUI.setText(findTestObject('ucf88_or/backoffice/createArena_or/input_Acronym_acronym'), acronym)
 
 WebUI.setText(findTestObject('ucf88_or/backoffice/createArena_or/input_Profit Margin ()_arena_p'), profitMargin)
+
+Thread.sleep(3000)
 
