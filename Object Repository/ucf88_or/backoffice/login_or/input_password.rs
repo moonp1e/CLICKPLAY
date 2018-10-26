@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Password_password</name>
+   <name>input_password</name>
    <tag></tag>
    <elementGuidId>ecefe930-ddb9-4008-892b-7ff8b2c5eb04</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='password']</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>id(&quot;password&quot;)[count(. | //input[@type = 'password' and @placeholder = 'Password' and @name = 'password' and @id = 'password']) = count(//input[@type = 'password' and @placeholder = 'Password' and @name = 'password' and @id = 'password'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='password']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

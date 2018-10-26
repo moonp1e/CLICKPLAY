@@ -19,9 +19,9 @@ WebUI.navigateToUrl('http://dev-admin.ucf88.com/login')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('ucf88_or/backoffice/login_or/input_Username_name'), 'admin')
+WebUI.setText(findTestObject('ucf88_or/backoffice/login_or/input_username'), 'admin')
 
-WebUI.setEncryptedText(findTestObject('ucf88_or/backoffice/login_or/input_Password_password'), 'SFTQUhjBfIY=')
+WebUI.setEncryptedText(findTestObject('ucf88_or/backoffice/login_or/input_password'), 'SFTQUhjBfIY=')
 
 WebUI.click(findTestObject('ucf88_or/backoffice/login_or/button_Login'))
 
@@ -31,19 +31,19 @@ WebUI.verifyElementPresent(findTestObject('ucf88_or/backoffice/header_or/span_Ar
 
 WebUI.click(findTestObject('ucf88_or/backoffice/header_or/span_Arena'))
 
-WebUI.verifyElementPresent(findTestObject('ucf88_or/backoffice/createArena_or/button_Create Arena'), 2)
+WebUI.verifyElementPresent(findTestObject('ucf88_or/backoffice/createArena_or/button_createArena'), 2)
 
-WebUI.click(findTestObject('ucf88_or/backoffice/createArena_or/button_Create Arena'))
+WebUI.click(findTestObject('ucf88_or/backoffice/createArena_or/button_createArena'))
 
 WebUI.verifyElementPresent(findTestObject('ucf88_or/backoffice/header_or/h5_Add Arena'), 2)
 
-WebUI.setText(findTestObject('ucf88_or/backoffice/createArena_or/input_Name_name'), arenaName)
+WebUI.setText(findTestObject('ucf88_or/backoffice/createArena_or/input_arenaName'), arenaName)
 
-WebUI.setText(findTestObject('ucf88_or/backoffice/createArena_or/input_Event Name_event_name'), eventName)
+WebUI.setText(findTestObject('ucf88_or/backoffice/createArena_or/input_eventName'), eventName)
 
-WebUI.setText(findTestObject('ucf88_or/backoffice/createArena_or/input_Acronym_acronym'), acronym)
+WebUI.setText(findTestObject('ucf88_or/backoffice/createArena_or/input_acronym'), acronym)
 
-WebUI.setText(findTestObject('ucf88_or/backoffice/createArena_or/input_Profit Margin ()_arena_p'), profitMargin)
+WebUI.setText(findTestObject('ucf88_or/backoffice/createArena_or/input_profitMargin'), profitMargin)
 
 Thread.sleep(3000)
 

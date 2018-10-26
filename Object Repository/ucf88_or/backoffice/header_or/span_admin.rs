@@ -3,8 +3,18 @@
    <description></description>
    <name>span_admin</name>
    <tag></tag>
-   <elementGuidId>0adef100-a224-4506-80bf-35b43861136c</elementGuidId>
-   <selectorMethod>XPATH</selectorMethod>
+   <elementGuidId>ba972963-9d76-4808-bcd2-31ed11268eca</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[@class=&quot;page-header-fixed page-container-bg-solid&quot;]/div[@class=&quot;page-wrapper&quot;]/div[@class=&quot;page-wrapper-row&quot;]/div[@class=&quot;page-wrapper-top&quot;]/div[@class=&quot;page-header navbar-fixed-top&quot;]/div[@class=&quot;page-header-top&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;top-menu&quot;]/ul[@class=&quot;nav navbar-nav pull-right&quot;]/li[@class=&quot;dropdown dropdown-user dropdown-dark&quot;]/a[@class=&quot;dropdown-toggle&quot;]/span[@class=&quot;username username-hide-mobile&quot;][count(. | //span[(text() = ' admin ' or . = ' admin ')]) = count(//span[(text() = ' admin ' or . = ' admin ')])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit'])[1]/following::span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,7 +38,7 @@
       <value> admin </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

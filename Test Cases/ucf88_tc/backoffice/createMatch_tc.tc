@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>createMatch_tc</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>50a41fbb-06b2-49e9-855e-ec0a6f8023d9</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>558f34cd-8cfa-45e2-8aba-3f533998c468</id>
+      <masked>false</masked>
+      <name>meronName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1c461297-6e16-4679-bccf-7b5d8731b804</id>
+      <masked>false</masked>
+      <name>walaName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ac3886d6-cd33-48a9-9c75-de599989beb2</id>
+      <masked>false</masked>
+      <name>acronym</name>
+   </variable>
+</TestCaseEntity>

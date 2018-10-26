@@ -13,3 +13,21 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.mouseOver(findTestObject('ucf88_or/backoffice/header_or/span_Betting'))
+
+WebUI.verifyElementPresent(findTestObject('ucf88_or/backoffice/header_or/span_Match'), 0)
+
+WebUI.click(findTestObject('ucf88_or/backoffice/header_or/span_Match'))
+
+WebUI.click(findTestObject('ucf88_or/backoffice/createMatch_or/button_CreateMatch'))
+
+WebUI.verifyElementPresent(findTestObject('ucf88_or/backoffice/createMatch_or/text_addMatch'), 0)
+
+WebUI.selectOptionByLabel(findTestObject('ucf88_or/backoffice/createMatch_or/dropdown_arena'), acronym, false)
+
+WebUI.setText(findTestObject('ucf88_or/backoffice/createMatch_or/input_meronName'), meronName)
+
+WebUI.setText(findTestObject('ucf88_or/backoffice/createMatch_or/input_walaName'), walaName)
+
+WebUI.click(findTestObject('ucf88_or/backoffice/createMatch_or/button_submitMatch'))
+

@@ -3,15 +3,15 @@
    <description></description>
    <name>span_Betting</name>
    <tag></tag>
-   <elementGuidId>c4d34123-914b-42e6-be2f-d6e117272190</elementGuidId>
+   <elementGuidId>f7e334b6-6b74-40b6-a22a-e7fd6f13ffd4</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//a[@id='nav_Betting']/span</value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value>id(&quot;nav_Betting&quot;)/span[1][count(. | //span[(text() = 'Betting' or . = 'Betting')]) = count(//span[(text() = 'Betting' or . = 'Betting')])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='nav_Betting']/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
