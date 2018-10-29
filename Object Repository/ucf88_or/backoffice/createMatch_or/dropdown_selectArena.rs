@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dropdown_arena</name>
+   <name>dropdown_selectArena</name>
    <tag></tag>
-   <elementGuidId>ca4b007c-4b75-46ca-b7b2-2748fb38fa81</elementGuidId>
+   <elementGuidId>2e16553c-d0fd-4cff-a4f5-75e964eaaf8f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
          <value>//select[@id='match_arena']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,10 +38,10 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>All CategoryawsTSTJ9aaaa</value>
+      <value>All CategoryawsTSTaaaaCCUP</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

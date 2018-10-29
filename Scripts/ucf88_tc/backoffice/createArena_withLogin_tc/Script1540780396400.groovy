@@ -13,6 +13,18 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://dev-admin.ucf88.com/login')
+
+WebUI.maximizeWindow()
+
+WebUI.setText(findTestObject('ucf88_or/backoffice/login_or/input_username'), 'admin')
+
+WebUI.setEncryptedText(findTestObject('ucf88_or/backoffice/login_or/input_password'), 'SFTQUhjBfIY=')
+
+WebUI.click(findTestObject('ucf88_or/backoffice/login_or/button_Login'))
+
 WebUI.mouseOver(findTestObject('ucf88_or/backoffice/header_or/span_Betting'))
 
 WebUI.verifyElementPresent(findTestObject('ucf88_or/backoffice/header_or/span_Arena'), 2)
@@ -21,7 +33,7 @@ WebUI.click(findTestObject('ucf88_or/backoffice/header_or/span_Arena'))
 
 WebUI.click(findTestObject('ucf88_or/backoffice/createArena_or/button_createArena'))
 
-WebUI.setText(findTestObject('ucf88_or/backoffice/createArena_or/input_arenaName'), NAME)
+WebUI.setText(findTestObject('ucf88_or/backoffice/createArena_or/input_arenaName'), arenaName)
 
 WebUI.setText(findTestObject('ucf88_or/backoffice/createArena_or/input_eventName'), eventName)
 
@@ -30,6 +42,4 @@ WebUI.setText(findTestObject('ucf88_or/backoffice/createArena_or/input_acronym')
 WebUI.setText(findTestObject('ucf88_or/backoffice/createArena_or/input_profitMargin'), profitMargin)
 
 WebUI.click(findTestObject('ucf88_or/backoffice/createArena_or/button_submitArena'))
-
-WebUI.delay(2)
 

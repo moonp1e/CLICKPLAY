@@ -15,19 +15,37 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.mouseOver(findTestObject('ucf88_or/backoffice/header_or/span_Betting'))
 
-WebUI.verifyElementPresent(findTestObject('ucf88_or/backoffice/header_or/span_Match'), 0)
+WebUI.verifyElementPresent(findTestObject('ucf88_or/backoffice/header_or/span_Match'), 3)
 
 WebUI.click(findTestObject('ucf88_or/backoffice/header_or/span_Match'))
 
-WebUI.click(findTestObject('ucf88_or/backoffice/createMatch_or/button_CreateMatch'))
+WebUI.click(findTestObject('ucf88_or/backoffice/createMatch_or/button_createMatch'))
 
-WebUI.verifyElementPresent(findTestObject('ucf88_or/backoffice/createMatch_or/text_addMatch'), 0)
+WebUI.verifyElementPresent(findTestObject('ucf88_or/backoffice/createMatch_or/text_addMatch'), 3)
 
-WebUI.selectOptionByLabel(findTestObject('ucf88_or/backoffice/createMatch_or/dropdown_arena'), acronym, false)
+WebUI.selectOptionByLabel(findTestObject('ucf88_or/backoffice/createMatch_or/dropdown_selectArena'), acronym, false)
 
 WebUI.setText(findTestObject('ucf88_or/backoffice/createMatch_or/input_meronName'), meronName)
 
 WebUI.setText(findTestObject('ucf88_or/backoffice/createMatch_or/input_walaName'), walaName)
 
+WebUI.waitForElementVisible(findTestObject('ucf88_or/backoffice/createMatch_or/link_newMatch_Clickhere'), 3)
+
 WebUI.click(findTestObject('ucf88_or/backoffice/createMatch_or/button_submitMatch'))
+
+WebUI.switchToWindowIndex(1)
+
+WebUI.click(findTestObject('ucf88_or/backoffice/createMatch_or/button_openMatch'))
+
+WebUI.waitForElementVisible(findTestObject('ucf88_or/backoffice/createMatch_or/button_agreeOpenMatch'), 3)
+
+WebUI.click(findTestObject('ucf88_or/backoffice/createMatch_or/button_agreeOpenMatch'))
+
+WebUI.delay(2)
+
+WebUI.closeWindowIndex(1)
+
+WebUI.switchToWindowIndex(0)
+
+Thread.sleep(3000)
 

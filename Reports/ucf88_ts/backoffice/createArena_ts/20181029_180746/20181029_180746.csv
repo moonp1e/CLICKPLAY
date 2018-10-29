@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+createArena_ts,,,2018-10-29 18:07:48,2018-10-29 18:07:50,1.868s,FAILED
+,,,,,,
+Test Cases/ucf88_tc/backoffice/createArena_tc,,,2018-10-29 18:07:48,2018-10-29 18:07:49,0.720s,FAILED
+mouseOver,,,2018-10-29 18:07:49,2018-10-29 18:07:49,0.396s,FAILED
+,,,,,,
+Test Cases/ucf88_tc/backoffice/createArena_tc,,,2018-10-29 18:07:49,2018-10-29 18:07:49,0.144s,FAILED
+mouseOver,,,2018-10-29 18:07:49,2018-10-29 18:07:49,0.042s,FAILED
+,,,,,,
+Test Cases/ucf88_tc/backoffice/createArena_tc,,,2018-10-29 18:07:49,2018-10-29 18:07:49,0.043s,FAILED
+mouseOver,,,2018-10-29 18:07:49,2018-10-29 18:07:49,0.005s,FAILED
+,,,,,,
+Test Cases/ucf88_tc/backoffice/createArena_tc,,,2018-10-29 18:07:49,2018-10-29 18:07:49,0.147s,FAILED
+mouseOver,,,2018-10-29 18:07:49,2018-10-29 18:07:49,0.022s,FAILED
+,,,,,,
+Test Cases/ucf88_tc/backoffice/createArena_tc,,,2018-10-29 18:07:49,2018-10-29 18:07:50,0.116s,FAILED
+mouseOver,,,2018-10-29 18:07:50,2018-10-29 18:07:50,0.062s,FAILED
