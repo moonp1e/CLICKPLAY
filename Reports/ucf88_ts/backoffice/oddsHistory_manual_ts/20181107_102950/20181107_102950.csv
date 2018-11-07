@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+oddsHistory_manual_ts,Chrome 70.0.3538.77,,2018-11-07 10:29:51,2018-11-07 10:30:03,11.888s,FAILED
+,,,,,,
+Test Cases/ucf88_tc/backoffice/createArena/createArena_tc,Chrome 70.0.3538.77,,2018-11-07 10:29:52,2018-11-07 10:30:01,9.538s,FAILED
+errpack.loginBackoffice.getLogin,Chrome 70.0.3538.77,,2018-11-07 10:29:52,2018-11-07 10:30:00,7.816s,PASSED
+mouseOver,Chrome 70.0.3538.77,,2018-11-07 10:30:00,2018-11-07 10:30:00,0.106s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-11-07 10:30:00,2018-11-07 10:30:00,0.043s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-07 10:30:00,2018-11-07 10:30:01,1.060s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-07 10:30:01,2018-11-07 10:30:01,0.088s,PASSED
+setText,Chrome 70.0.3538.77,,2018-11-07 10:30:01,2018-11-07 10:30:01,0.086s,FAILED
+,,,,,,
+Test Cases/ucf88_tc/backoffice/createMatch/createMatch_tc,Chrome 70.0.3538.77,,2018-11-07 10:30:01,2018-11-07 10:30:02,0.493s,FAILED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-11-07 10:30:02,2018-11-07 10:30:02,0.030s,PASSED
+mouseOver,Chrome 70.0.3538.77,,2018-11-07 10:30:02,2018-11-07 10:30:02,0.049s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-07 10:30:02,2018-11-07 10:30:02,0.033s,FAILED
+,,,,,,
+Test Cases/ucf88_tc/backoffice/odds history/oddsHistory_manual_tc,Chrome 70.0.3538.77,,2018-11-07 10:30:02,2018-11-07 10:30:02,0.584s,FAILED
+mouseOver,Chrome 70.0.3538.77,,2018-11-07 10:30:02,2018-11-07 10:30:02,0.214s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-07 10:30:02,2018-11-07 10:30:02,0.105s,FAILED

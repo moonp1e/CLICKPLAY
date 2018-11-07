@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+create_openMatch,,,2018-10-30 13:48:37,2018-10-30 13:48:38,0.877s,FAILED
+,,,,,,
+Test Cases/ucf88_tc/backoffice/createMatch_withLogin_tc,,,2018-10-30 13:48:37,2018-10-30 13:48:38,0.567s,FAILED
+verifyElementPresent,,,2018-10-30 13:48:38,2018-10-30 13:48:38,0.294s,FAILED

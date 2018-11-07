@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>createArena_ts</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-11-07T10:50:58</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>96406561-8c31-4c47-ab07-1d8b6984a52e</testSuiteGuid>
+   <testCaseLink>
+      <guid>d142da36-a755-48b1-b824-0c41d6c65d89</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ucf88_tc/backoffice/createArena/createArena_tc</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>7c9b6793-16ba-4bb9-bcd4-6ade73d6c7d3</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ucf88_xml/backoffice/arenaDetails</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>7c9b6793-16ba-4bb9-bcd4-6ade73d6c7d3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ArenaName</value>
+         <variableId>64677694-a504-454d-a7ad-0ee256bd323a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7c9b6793-16ba-4bb9-bcd4-6ade73d6c7d3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>EventName</value>
+         <variableId>a0e4f712-26f9-4eae-8a03-9fe193e0e75f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7c9b6793-16ba-4bb9-bcd4-6ade73d6c7d3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Acronym</value>
+         <variableId>8dd7c5db-afc3-4e9a-b40a-cee661788588</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7c9b6793-16ba-4bb9-bcd4-6ade73d6c7d3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ProfitMargin</value>
+         <variableId>4cb70248-c3f3-43b6-ae5b-81fd14a59d03</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

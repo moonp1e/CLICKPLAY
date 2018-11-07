@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="create_openMatch" time="24" tests="1" failures="0" errors="0">
+   <testsuite name="create_openMatch" tests="1" failures="0" errors="0" time="24" timestamp="2018-10-30 15:03:09" hostname="janine.bautista - J9" id="Test Suites/ucf88_ts/backoffice/create_openMatch">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\janine.bautista\\git\\CLICKPLAY\\Reports\\ucf88_ts\\backoffice\\create_openMatch\\20181030_150308"/>
+         <property name="logFiles" value="C:\\Users\\janine.bautista\\git\\CLICKPLAY\\Reports\\ucf88_ts\\backoffice\\create_openMatch\\20181030_150308\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="janine.bautista - J9"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.3.2"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="172.16.8.107"/>
+         <property name="sessionId" value="f1de4af4e32fe557f51ebc68bf93a435"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ucf88_tc/backoffice/createMatch_withLogin_tc" classname="Test Cases/ucf88_tc/backoffice/createMatch_withLogin_tc" status="PASSED">
+         <system-out><![CDATA[2018-10-30 15:03:09 - [TEST_CASE][PASSED] - Test Cases/ucf88_tc/backoffice/createMatch_withLogin_tc: Test Cases/ucf88_tc/backoffice/createMatch_withLogin_tc
+
+2018-10-30 15:03:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-30 15:03:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-30 15:03:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://dev-admin.ucf88.com/login' successfully
+
+2018-10-30 15:03:14 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com/login' successfully
+
+2018-10-30 15:03:14 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-30 15:03:15 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-30 15:03:15 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/ucf88_or/backoffice/login_or/input_username'
+
+2018-10-30 15:03:15 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/ucf88_or/backoffice/login_or/input_username'
+
+2018-10-30 15:03:15 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/ucf88_or/backoffice/login_or/input_password'
+
+2018-10-30 15:03:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/ucf88_or/backoffice/login_or/input_password'
+
+2018-10-30 15:03:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/login_or/button_Login' is clicked on
+
+2018-10-30 15:03:18 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/login_or/button_Login' is clicked on
+
+2018-10-30 15:03:18 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ucf88_or/backoffice/header_or/span_Match' is present
+
+2018-10-30 15:03:18 - [MESSAGE][PASSED] - Object 'Object Repository/ucf88_or/backoffice/header_or/span_Match' is present
+
+2018-10-30 15:03:18 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/ucf88_or/backoffice/header_or/span_Betting' is hovered
+
+2018-10-30 15:03:18 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/header_or/span_Betting' is hovered
+
+2018-10-30 15:03:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/header_or/span_Match' is clicked on
+
+2018-10-30 15:03:19 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/header_or/span_Match' is clicked on
+
+2018-10-30 15:03:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/createMatch_or/button_createMatch' is clicked on
+
+2018-10-30 15:03:19 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/createMatch_or/button_createMatch' is clicked on
+
+2018-10-30 15:03:19 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-30 15:03:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-30 15:03:20 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ucf88_or/backoffice/createMatch_or/text_addMatch' is present
+
+2018-10-30 15:03:20 - [MESSAGE][PASSED] - Object 'Object Repository/ucf88_or/backoffice/createMatch_or/text_addMatch' is present
+
+2018-10-30 15:03:20 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-30 15:03:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-30 15:03:21 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'A1' are selected in object 'Object Repository/ucf88_or/backoffice/createMatch_or/dropdown_selectArena' 
+
+2018-10-30 15:03:21 - [MESSAGE][PASSED] - All options with label 'A1' are selected in object 'Object Repository/ucf88_or/backoffice/createMatch_or/dropdown_selectArena' 
+
+2018-10-30 15:03:21 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-30 15:03:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-30 15:03:22 - [TEST_STEP][PASSED] - setText: Text 'AA' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_meronName'
+
+2018-10-30 15:03:22 - [MESSAGE][PASSED] - Text 'AA' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_meronName'
+
+2018-10-30 15:03:22 - [TEST_STEP][PASSED] - setText: Text 'BB' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_walaName'
+
+2018-10-30 15:03:22 - [MESSAGE][PASSED] - Text 'BB' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_walaName'
+
+2018-10-30 15:03:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/createMatch_or/button_submitMatch' is clicked on
+
+2018-10-30 15:03:23 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/createMatch_or/button_submitMatch' is clicked on
+
+2018-10-30 15:03:23 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-30 15:03:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-30 15:03:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/createMatch_or/span_Clickmatch' is clicked on
+
+2018-10-30 15:03:24 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/createMatch_or/span_Clickmatch' is clicked on
+
+2018-10-30 15:03:24 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-10-30 15:03:25 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-10-30 15:03:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/createMatch_or/button_openMatch' is clicked on
+
+2018-10-30 15:03:26 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/createMatch_or/button_openMatch' is clicked on
+
+2018-10-30 15:03:26 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-30 15:03:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-30 15:03:27 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ucf88_or/backoffice/createMatch_or/button_agreeOpenMatch' is visible
+
+2018-10-30 15:03:27 - [MESSAGE][PASSED] - Object 'Object Repository/ucf88_or/backoffice/createMatch_or/button_agreeOpenMatch' is visible
+
+2018-10-30 15:03:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/createMatch_or/button_agreeOpenMatch' is clicked on
+
+2018-10-30 15:03:27 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/createMatch_or/button_agreeOpenMatch' is clicked on
+
+2018-10-30 15:03:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-30 15:03:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-30 15:03:29 - [TEST_STEP][PASSED] - closeWindowIndex: Window with index 1 is closed
+
+2018-10-30 15:03:29 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2018-10-30 15:03:29 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-10-30 15:03:29 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-10-30 15:03:29 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-30 15:03:09 - [TEST_SUITE][PASSED] - create_openMatch: Test Cases/ucf88_tc/backoffice/createMatch_withLogin_tc]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="createArena_ts" time="14" tests="1" failures="0" errors="0">
+   <testsuite name="createArena_ts" tests="1" failures="0" errors="0" time="14" timestamp="2018-11-07 10:50:59" hostname="janine.bautista - J9" id="Test Suites/ucf88_ts/backoffice/createArena_ts">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\janine.bautista\\git\\CLICKPLAY\\Reports\\ucf88_ts\\backoffice\\createArena_ts\\20181107_105058"/>
+         <property name="logFiles" value="C:\\Users\\janine.bautista\\git\\CLICKPLAY\\Reports\\ucf88_ts\\backoffice\\createArena_ts\\20181107_105058\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="janine.bautista - J9"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="172.16.8.107"/>
+         <property name="sessionId" value="dda44fcf0befcac028d8ccea0dd52cd4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ucf88_tc/backoffice/createArena/createArena_tc" classname="Test Cases/ucf88_tc/backoffice/createArena/createArena_tc" status="PASSED">
+         <system-out><![CDATA[2018-11-07 10:50:59 - [TEST_CASE][PASSED] - Test Cases/ucf88_tc/backoffice/createArena/createArena_tc: Test Cases/ucf88_tc/backoffice/createArena/createArena_tc
+
+2018-11-07 10:51:00 - [TEST_STEP][PASSED] - errpack.loginBackoffice.getLogin: errpack.loginBackoffice.getLogin is PASSED
+
+2018-11-07 10:51:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-07 10:51:04 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-07 10:51:04 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com/login' successfully
+
+2018-11-07 10:51:04 - [MESSAGE][PASSED] - Text 'errorman' is set on object 'Object Repository/ucf88_or/backoffice/login_or/input_username_bo'
+
+2018-11-07 10:51:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/ucf88_or/backoffice/login_or/input_password_bo'
+
+2018-11-07 10:51:07 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/login_or/button_login_bo' is clicked on
+
+2018-11-07 10:51:07 - [MESSAGE][PASSED] - errpack.loginBackoffice.getLogin is PASSED
+
+2018-11-07 10:51:07 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/ucf88_or/backoffice/header_or/span_Betting' is hovered
+
+2018-11-07 10:51:07 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/header_or/span_Betting' is hovered
+
+2018-11-07 10:51:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ucf88_or/backoffice/header_or/span_Arena' is present
+
+2018-11-07 10:51:07 - [MESSAGE][PASSED] - Object 'Object Repository/ucf88_or/backoffice/header_or/span_Arena' is present
+
+2018-11-07 10:51:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/header_or/span_Arena' is clicked on
+
+2018-11-07 10:51:08 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/header_or/span_Arena' is clicked on
+
+2018-11-07 10:51:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/createArena_or/button_createArena' is clicked on
+
+2018-11-07 10:51:08 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/createArena_or/button_createArena' is clicked on
+
+2018-11-07 10:51:08 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-07 10:51:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-07 10:51:09 - [TEST_STEP][PASSED] - setText: Text 'ARENA_TEST' is set on object 'Object Repository/ucf88_or/backoffice/createArena_or/input_arenaName'
+
+2018-11-07 10:51:09 - [MESSAGE][PASSED] - Text 'ARENA_TEST' is set on object 'Object Repository/ucf88_or/backoffice/createArena_or/input_arenaName'
+
+2018-11-07 10:51:09 - [TEST_STEP][PASSED] - setText: Text 'F1' is set on object 'Object Repository/ucf88_or/backoffice/createArena_or/input_eventName'
+
+2018-11-07 10:51:09 - [MESSAGE][PASSED] - Text 'F1' is set on object 'Object Repository/ucf88_or/backoffice/createArena_or/input_eventName'
+
+2018-11-07 10:51:09 - [TEST_STEP][PASSED] - setText: Text 'A1' is set on object 'Object Repository/ucf88_or/backoffice/createArena_or/input_acronym'
+
+2018-11-07 10:51:09 - [MESSAGE][PASSED] - Text 'A1' is set on object 'Object Repository/ucf88_or/backoffice/createArena_or/input_acronym'
+
+2018-11-07 10:51:09 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/ucf88_or/backoffice/createArena_or/input_profitMargin'
+
+2018-11-07 10:51:09 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/ucf88_or/backoffice/createArena_or/input_profitMargin'
+
+2018-11-07 10:51:09 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-07 10:51:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-07 10:51:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/createArena_or/button_submitArena' is clicked on
+
+2018-11-07 10:51:11 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/createArena_or/button_submitArena' is clicked on
+
+2018-11-07 10:51:11 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-07 10:51:12 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-07 10:50:59 - [TEST_SUITE][PASSED] - createArena_ts: Test Cases/ucf88_tc/backoffice/createArena/createArena_tc]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

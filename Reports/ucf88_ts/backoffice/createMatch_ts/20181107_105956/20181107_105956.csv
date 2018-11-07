@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+createMatch_ts,Chrome 70.0.3538.77,,2018-11-07 10:59:58,2018-11-07 11:00:33,35.927s,FAILED
+,,,,,,
+Test Cases/ucf88_tc/backoffice/createMatch/createMatch_tc,Chrome 70.0.3538.77,,2018-11-07 10:59:58,2018-11-07 11:00:33,35.094s,FAILED
+errpack.loginBackoffice.getLogin,Chrome 70.0.3538.77,,2018-11-07 10:59:58,2018-11-07 11:00:06,7.559s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-11-07 11:00:06,2018-11-07 11:00:06,0.042s,PASSED
+mouseOver,Chrome 70.0.3538.77,,2018-11-07 11:00:06,2018-11-07 11:00:06,0.085s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-07 11:00:06,2018-11-07 11:00:07,1.006s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-07 11:00:07,2018-11-07 11:00:07,0.164s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-07 11:00:07,2018-11-07 11:00:08,1.015s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-11-07 11:00:08,2018-11-07 11:00:08,0.020s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-07 11:00:08,2018-11-07 11:00:09,1.003s,PASSED
+selectOptionByLabel,Chrome 70.0.3538.77,,2018-11-07 11:00:09,2018-11-07 11:00:33,23.854s,FAILED

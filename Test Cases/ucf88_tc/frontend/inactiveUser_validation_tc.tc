@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check that inactive user is not allowed to login in frontend.</description>
+   <name>inactiveUser_validation_tc</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd5616ce-bab3-4250-af35-19f42bdbd807</testCaseGuid>
+</TestCaseEntity>

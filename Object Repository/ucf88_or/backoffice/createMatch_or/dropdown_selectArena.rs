@@ -3,90 +3,101 @@
    <description></description>
    <name>dropdown_selectArena</name>
    <tag></tag>
-   <elementGuidId>2e16553c-d0fd-4cff-a4f5-75e964eaaf8f</elementGuidId>
+   <elementGuidId>45b33ef2-707f-42fb-8342-6bf4011816aa</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//select[@id='match_arena']</value>
+         <value>//span[@id='select2-match_arena-container']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;select2-match_arena-container&quot;)[count(. | //span[@id = 'select2-match_arena-container' and @title = 'Select Arena' and (text() = 'Select Arena' or . = 'Select Arena')]) = count(//span[@id = 'select2-match_arena-container' and @title = 'Select Arena' and (text() = 'Select Arena' or . = 'Select Arena')])]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>select</value>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>select2-selection__rendered</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>match_arena</value>
+      <value>select2-match_arena-container</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>title</name>
       <type>Main</type>
-      <value>match_arena</value>
+      <value>Select Arena</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>All CategoryawsTSTaaaaCCUP</value>
+      <value>Select Arena</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;match_arena&quot;)</value>
+      <value>id(&quot;select2-match_arena-container&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//select[@id='match_arena']</value>
+      <value>//span[@id='select2-match_arena-container']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//form[@id='match-form']/div/div/div[2]/div/div[2]/div/select</value>
+      <value>//form[@id='match-form']/div/div/div[2]/div/div[2]/div/span/span/span/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Arena Name'])[1]/following::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Arena Name'])[1]/following::span[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Match:'])[1]/following::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Match:'])[1]/following::span[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='+ Create Arena'])[1]/preceding::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='+ Create Arena'])[1]/preceding::span[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Event Name'])[3]/preceding::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Event Name'])[3]/preceding::span[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div/select</value>
+      <value>//div/span/span/span/span</value>
    </webElementXpaths>
 </WebElementEntity>

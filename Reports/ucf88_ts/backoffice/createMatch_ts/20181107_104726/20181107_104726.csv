@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+createMatch_ts,,,2018-11-07 10:47:28,2018-11-07 10:47:29,1.035s,FAILED
+,,,,,,
+Test Cases/ucf88_tc/backoffice/createMatch/createMatch_tc,,,2018-11-07 10:47:28,2018-11-07 10:47:29,0.740s,FAILED
+errpack.createMatch.createMatch,,,2018-11-07 10:47:28,2018-11-07 10:47:29,0.263s,FAILED

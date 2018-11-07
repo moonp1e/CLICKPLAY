@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>oddsHistory_manual_tc</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5f9a1c24-ce6d-4036-bd16-592b878cdef4</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bed4f5c3-2c8f-45f4-823f-f9c43556a802</id>
+      <masked>false</masked>
+      <name>ArenaName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>dfc93474-afd8-43f0-aeb8-fd73005a60a7</id>
+      <masked>false</masked>
+      <name>EventName</name>
+   </variable>
+</TestCaseEntity>

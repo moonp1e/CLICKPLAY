@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+createArena_ts,Chrome 70.0.3538.77,,2018-11-07 10:38:00,2018-11-07 10:38:07,6.849s,FAILED
+,,,,,,
+Test Cases/ucf88_tc/backoffice/createArena/createArena_tc,Chrome 70.0.3538.77,,2018-11-07 10:38:00,2018-11-07 10:38:06,5.724s,FAILED
+errpack.loginBackoffice.getLogin,Chrome 70.0.3538.77,,2018-11-07 10:38:00,2018-11-07 10:38:06,5.268s,PASSED
+mouseOver,Chrome 70.0.3538.77,,2018-11-07 10:38:06,2018-11-07 10:38:06,0.051s,FAILED
