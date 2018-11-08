@@ -3,15 +3,11 @@
    <description></description>
    <name>input_weight_meron</name>
    <tag></tag>
-   <elementGuidId>92afe396-2194-4ba8-977a-47fdbe41cfd9</elementGuidId>
+   <elementGuidId>9e49b7ca-3274-49d5-8fb3-b443c3fd4a63</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='banker_weight']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;banker_weight&quot;)[count(. | //input[@type = 'text' and @id = 'banker_weight' and @name = 'banker_weight']) = count(//input[@type = 'text' and @id = 'banker_weight' and @name = 'banker_weight'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

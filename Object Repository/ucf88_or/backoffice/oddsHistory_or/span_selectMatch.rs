@@ -3,14 +3,18 @@
    <description></description>
    <name>span_selectMatch</name>
    <tag></tag>
-   <elementGuidId>89115bcb-34c9-45b0-97f4-f164b630d37e</elementGuidId>
+   <elementGuidId>11a864f8-ce48-4a2a-8bd7-85fd0391994f</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;select2-filtermatch-container&quot;)[count(. | //span[@id = 'select2-filtermatch-container' and @title = 'Select Match' and (text() = 'Select Match' or . = 'Select Match')]) = count(//span[@id = 'select2-filtermatch-container' and @title = 'Select Match' and (text() = 'Select Match' or . = 'Select Match')])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//div[@id='sports']/div/div/div/div/div/form/span[3]/span/span</value>
+         <value>//span[@id='select2-filtermatch-container']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -24,42 +28,21 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>select2-selection select2-selection--single</value>
+      <value>select2-selection__rendered</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>combobox</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-haspopup</name>
-      <type>Main</type>
-      <value>true</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-expanded</name>
-      <type>Main</type>
-      <value>false</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
-      <type>Main</type>
-      <value>0</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-labelledby</name>
+      <name>id</name>
       <type>Main</type>
       <value>select2-filtermatch-container</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Select Match</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,34 +52,46 @@
       <value>Select Match</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;sports&quot;)/div[@class=&quot;portlet light&quot;]/div[@class=&quot;portlet-body form&quot;]/div[@class=&quot;portlet light&quot;]/div[@class=&quot;portlet-title&quot;]/div[@class=&quot;caption toolbar&quot;]/form[@class=&quot;form-inline&quot;]/span[@class=&quot;select2 select2-container select2-container--bootstrap select2-container--below select2-container--focus&quot;]/span[@class=&quot;selection&quot;]/span[@class=&quot;select2-selection select2-selection--single&quot;]</value>
+      <value>id(&quot;select2-filtermatch-container&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <value>//span[@id='select2-filtermatch-container']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='sports']/div/div/div/div/div/form/span[3]/span/span</value>
+      <value>//div[@id='sports']/div/div/div/div/div/form/span[3]/span/span/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Arena'])[2]/following::span[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Arena'])[2]/following::span[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/following::span[9]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/following::span[10]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Date/Time'])[1]/preceding::span[7]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//span[3]/span/span</value>
+      <value>//span[3]/span/span/span</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -14,7 +14,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'errpack.loginBackoffice.getLogin'()
+//CustomKeywords.'errpack.loginBackoffice.getLogin'()
 
 WebUI.verifyElementPresent(findTestObject('ucf88_or/backoffice/header_or/span_Match'), 3)
 
@@ -32,9 +32,12 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('ucf88_or/backoffice/createMatch_or/dropdown_selectArena'))
 
-//WebUI.selectOptionByLabel(findTestObject('ucf88_or/backoffice/createMatch_or/drpdwnContent_selectArena'), ArenaName_Acronym, 
-//    false)
-WebUI.setText(findTestObject('ucf88_or/backoffice/createMatch_or/input_selectArena'), 'Arena_Test - A1')
+WebUI.delay(1)
+
+
+WebUI.setText(findTestObject('ucf88_or/backoffice/createMatch_or/input_selectArena'), ArenaName_Acronym)
+
+WebUI.delay(1)
 
 WebUI.sendKeys(findTestObject('ucf88_or/backoffice/createMatch_or/input_selectArena'), Keys.chord(Keys.ENTER))
 
@@ -52,23 +55,25 @@ WebUI.setText(findTestObject('ucf88_or/backoffice/createMatch_or/input_farm_mero
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('ucf88_or/backoffice/createMatch_or/Page_Match Management - ucf88/input_farm_wala'), WalaFarm)
+WebUI.setText(findTestObject('ucf88_or/backoffice/createMatch_or/input_farm_wala'), WalaFarm)
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('ucf88_or/backoffice/createMatch_or/Page_Match Management - ucf88/input_breed_meron'), MeronBreed)
+WebUI.setText(findTestObject('ucf88_or/backoffice/createMatch_or/input_breed_meron'), MeronBreed)
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('ucf88_or/backoffice/createMatch_or/Page_Match Management - ucf88/input_breed_wala'), WalaBreed)
+WebUI.setText(findTestObject('ucf88_or/backoffice/createMatch_or/input_breed_wala'), WalaBreed)
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('ucf88_or/backoffice/createMatch_or/Page_Match Management - ucf88/input_weight_meron'), MeronWeight)
+WebUI.setText(findTestObject('ucf88_or/backoffice/createMatch_or/input_weight_meron'), MeronWeight)
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('ucf88_or/backoffice/createMatch_or/Page_Match Management - ucf88/input_weight_wala'), WalaWeight)
+WebUI.setText(findTestObject('ucf88_or/backoffice/createMatch_or/input_weight_wala'), WalaWeight)
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('ucf88_or/backoffice/createMatch_or/button_submitMatch'), FailureHandling.STOP_ON_FAILURE)
 
@@ -78,13 +83,25 @@ WebUI.delay(1)
 
 WebUI.switchToWindowIndex(1)
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('ucf88_or/backoffice/createMatch_or/button_openMatch'))
 
 WebUI.delay(1)
 
-WebUI.waitForElementVisible(findTestObject('ucf88_or/backoffice/createMatch_or/button_agreeOpenMatch'), 3)
+WebUI.waitForElementVisible(findTestObject('ucf88_or/backoffice/createMatch_or/button_agreeOpenMatch'), 1)
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('ucf88_or/backoffice/createMatch_or/button_agreeOpenMatch'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('ucf88_or/backoffice/riskMangement_or/span_increaseOdds'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('ucf88_or/backoffice/riskMangement_or/button_saveOddsAdjust'))
 
 WebUI.delay(2)
 

@@ -21,7 +21,7 @@ import internal.GlobalVariable
 public class loginBackoffice {
 
 	@Keyword
-	public void getLogin() {
+	public getLogin(){
 
 		WebUI.openBrowser('')
 

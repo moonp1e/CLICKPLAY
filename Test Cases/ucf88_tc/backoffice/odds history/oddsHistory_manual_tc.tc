@@ -10,7 +10,7 @@
       <description></description>
       <id>bed4f5c3-2c8f-45f4-823f-f9c43556a802</id>
       <masked>false</masked>
-      <name>ArenaName</name>
+      <name>ArenaName_Acronym</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>

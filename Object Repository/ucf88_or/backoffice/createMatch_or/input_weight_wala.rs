@@ -3,15 +3,11 @@
    <description></description>
    <name>input_weight_wala</name>
    <tag></tag>
-   <elementGuidId>3c8375c2-7fb1-4337-aeaa-66c1703fa847</elementGuidId>
+   <elementGuidId>88d15b3a-146c-437e-b4c3-43ef3814d725</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='player_weight']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;player_weight&quot;)[count(. | //input[@type = 'text' and @id = 'player_weight' and @name = 'player_weight']) = count(//input[@type = 'text' and @id = 'player_weight' and @name = 'player_weight'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

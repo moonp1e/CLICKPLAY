@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="oddsHistory_manual_withoutMatch_ts" time="19" tests="0" failures="0" errors="1">
+   <testsuite name="oddsHistory_manual_withoutMatch_ts" tests="0" failures="0" errors="1" time="19" timestamp="2018-11-08 15:49:04" hostname="janine.bautista - J9" id="Test Suites/ucf88_ts/backoffice/oddsHistory_manual_withoutMatch_ts">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\janine.bautista\\git\\CLICKPLAY\\Reports\\ucf88_ts\\backoffice\\oddsHistory_manual_withoutMatch_ts\\20181108_154903"/>
+         <property name="logFiles" value="C:\\Users\\janine.bautista\\git\\CLICKPLAY\\Reports\\ucf88_ts\\backoffice\\oddsHistory_manual_withoutMatch_ts\\20181108_154903\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="janine.bautista - J9"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="172.16.8.107"/>
+         <property name="sessionId" value="c27b4efa2cb25d0380bdf7417974fb7c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ucf88_tc/backoffice/odds history/oddsHistory_manual_tc" classname="Test Cases/ucf88_tc/backoffice/odds history/oddsHistory_manual_tc" status="ERROR">
+         <error type="ERROR" message="Test Cases/ucf88_tc/backoffice/odds history/oddsHistory_manual_tc FAILED because (of) (Stack trace: groovy.lang.MissingPropertyException: No such property: Enter for class: org.openqa.selenium.Keys
+	at groovy.lang.MetaClassImpl.invokeStaticMissingProperty(MetaClassImpl.java:1004)
+	at groovy.lang.MetaClassImpl.getProperty(MetaClassImpl.java:1859)
+	at groovy.lang.MetaClassImpl.getProperty(MetaClassImpl.java:1835)
+	at groovy.lang.MetaClassImpl.getProperty(MetaClassImpl.java:3735)
+	at org.codehaus.groovy.runtime.callsite.ClassMetaClassGetPropertySite.getProperty(ClassMetaClassGetPropertySite.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
+	at Script1541490386947.run(Script1541490386947.groovy:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541663343137.run(TempTestSuite1541663343137.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-08 15:49:05 - [TEST_CASE][ERROR] - Test Cases/ucf88_tc/backoffice/odds history/oddsHistory_manual_tc: Test Cases/ucf88_tc/backoffice/odds history/oddsHistory_manual_tc FAILED because (of) (Stack trace: groovy.lang.MissingPropertyException: No such property: Enter for class: org.openqa.selenium.Keys
+	at groovy.lang.MetaClassImpl.invokeStaticMissingProperty(MetaClassImpl.java:1004)
+	at groovy.lang.MetaClassImpl.getProperty(MetaClassImpl.java:1859)
+	at groovy.lang.MetaClassImpl.getProperty(MetaClassImpl.java:1835)
+	at groovy.lang.MetaClassImpl.getProperty(MetaClassImpl.java:3735)
+	at org.codehaus.groovy.runtime.callsite.ClassMetaClassGetPropertySite.getProperty(ClassMetaClassGetPropertySite.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
+	at Script1541490386947.run(Script1541490386947.groovy:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541663343137.run(TempTestSuite1541663343137.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-08 15:49:05 - [TEST_STEP][PASSED] - errpack.loginBackoffice.getLogin: errpack.loginBackoffice.getLogin is PASSED
+
+2018-11-08 15:49:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-08 15:49:10 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-08 15:49:11 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com/login' successfully
+
+2018-11-08 15:49:11 - [MESSAGE][PASSED] - Text 'errorman' is set on object 'Object Repository/ucf88_or/backoffice/login_or/input_username_bo'
+
+2018-11-08 15:49:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/ucf88_or/backoffice/login_or/input_password_bo'
+
+2018-11-08 15:49:14 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/login_or/button_login_bo' is clicked on
+
+2018-11-08 15:49:14 - [MESSAGE][PASSED] - errpack.loginBackoffice.getLogin is PASSED
+
+2018-11-08 15:49:14 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/ucf88_or/backoffice/header_or/span_Betting' is hovered
+
+2018-11-08 15:49:14 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/header_or/span_Betting' is hovered
+
+2018-11-08 15:49:14 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-08 15:49:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-08 15:49:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/header_or/span_oddHistory' is clicked on
+
+2018-11-08 15:49:16 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/header_or/span_oddHistory' is clicked on
+
+2018-11-08 15:49:16 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-08 15:49:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-08 15:49:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/oddsHistory_or/span_selectArena ' is clicked on
+
+2018-11-08 15:49:17 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/oddsHistory_or/span_selectArena ' is clicked on
+
+2018-11-08 15:49:17 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-08 15:49:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-08 15:49:18 - [TEST_STEP][PASSED] - setText: Text 'Arena_Test - A1' is set on object 'Object Repository/ucf88_or/backoffice/oddsHistory_or/input_arenaName'
+
+2018-11-08 15:49:18 - [MESSAGE][PASSED] - Text 'Arena_Test - A1' is set on object 'Object Repository/ucf88_or/backoffice/oddsHistory_or/input_arenaName'
+
+2018-11-08 15:49:18 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-08 15:49:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-08 15:49:19 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/ucf88_or/backoffice/oddsHistory_or/input_arenaName'
+
+2018-11-08 15:49:19 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ucf88_or/backoffice/oddsHistory_or/input_arenaName'
+
+2018-11-08 15:49:19 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-08 15:49:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-08 15:49:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/oddsHistory_or/span_selectMatch' is clicked on
+
+2018-11-08 15:49:20 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/oddsHistory_or/span_selectMatch' is clicked on
+
+2018-11-08 15:49:20 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-08 15:49:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-08 15:49:21 - [TEST_STEP][PASSED] - setText: Text 'F1' is set on object 'Object Repository/ucf88_or/backoffice/oddsHistory_or/input_arenaName'
+
+2018-11-08 15:49:22 - [MESSAGE][PASSED] - Text 'F1' is set on object 'Object Repository/ucf88_or/backoffice/oddsHistory_or/input_arenaName'
+
+2018-11-08 15:49:22 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-08 15:49:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-08 15:49:23 - [TEST_STEP][PASSED] - sendKeys: Finding Test Object with id 'Object Repository/ucf88_or/backoffice/oddsHistory_or/input_arenaName']]></system-out>
+         <system-err><![CDATA[2018-11-08 15:49:05 - [TEST_CASE][ERROR] - Test Cases/ucf88_tc/backoffice/odds history/oddsHistory_manual_tc: Test Cases/ucf88_tc/backoffice/odds history/oddsHistory_manual_tc FAILED because (of) (Stack trace: groovy.lang.MissingPropertyException: No such property: Enter for class: org.openqa.selenium.Keys
+	at groovy.lang.MetaClassImpl.invokeStaticMissingProperty(MetaClassImpl.java:1004)
+	at groovy.lang.MetaClassImpl.getProperty(MetaClassImpl.java:1859)
+	at groovy.lang.MetaClassImpl.getProperty(MetaClassImpl.java:1835)
+	at groovy.lang.MetaClassImpl.getProperty(MetaClassImpl.java:3735)
+	at org.codehaus.groovy.runtime.callsite.ClassMetaClassGetPropertySite.getProperty(ClassMetaClassGetPropertySite.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
+	at Script1541490386947.run(Script1541490386947.groovy:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541663343137.run(TempTestSuite1541663343137.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-08 15:49:04 - [TEST_SUITE][ERROR] - oddsHistory_manual_withoutMatch_ts: Test Cases/ucf88_tc/backoffice/odds history/oddsHistory_manual_tc FAILED because (of) (Stack trace: groovy.lang.MissingPropertyException: No such property: Enter for class: org.openqa.selenium.Keys
+	at groovy.lang.MetaClassImpl.invokeStaticMissingProperty(MetaClassImpl.java:1004)
+	at groovy.lang.MetaClassImpl.getProperty(MetaClassImpl.java:1859)
+	at groovy.lang.MetaClassImpl.getProperty(MetaClassImpl.java:1835)
+	at groovy.lang.MetaClassImpl.getProperty(MetaClassImpl.java:3735)
+	at org.codehaus.groovy.runtime.callsite.ClassMetaClassGetPropertySite.getProperty(ClassMetaClassGetPropertySite.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
+	at Script1541490386947.run(Script1541490386947.groovy:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541663343137.run(TempTestSuite1541663343137.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-11-08 15:49:04 - [TEST_SUITE][ERROR] - oddsHistory_manual_withoutMatch_ts: Test Cases/ucf88_tc/backoffice/odds history/oddsHistory_manual_tc FAILED because (of) (Stack trace: groovy.lang.MissingPropertyException: No such property: Enter for class: org.openqa.selenium.Keys
+	at groovy.lang.MetaClassImpl.invokeStaticMissingProperty(MetaClassImpl.java:1004)
+	at groovy.lang.MetaClassImpl.getProperty(MetaClassImpl.java:1859)
+	at groovy.lang.MetaClassImpl.getProperty(MetaClassImpl.java:1835)
+	at groovy.lang.MetaClassImpl.getProperty(MetaClassImpl.java:3735)
+	at org.codehaus.groovy.runtime.callsite.ClassMetaClassGetPropertySite.getProperty(ClassMetaClassGetPropertySite.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
+	at Script1541490386947.run(Script1541490386947.groovy:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541663343137.run(TempTestSuite1541663343137.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>oddsHistory_manual_withoutMatch_ts</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-11-08T17:36:41</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>90cd6e83-b450-4db3-86e0-edc86837eb83</testSuiteGuid>
+   <testCaseLink>
+      <guid>ab07cda3-10f3-4f7e-b230-05310fffbcc8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ucf88_tc/backoffice/odds history/oddsHistory_manual_tc</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c8e15e73-3b84-4e2e-be88-04f52261ba41</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ucf88_xml/backoffice/matchDetails</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c0a15f5e-af51-4a0f-a217-692397b045d8</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ucf88_xml/backoffice/arenaDetails</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>c8e15e73-3b84-4e2e-be88-04f52261ba41</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ArenaName_Acronym</value>
+         <variableId>bed4f5c3-2c8f-45f4-823f-f9c43556a802</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c0a15f5e-af51-4a0f-a217-692397b045d8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>EventName</value>
+         <variableId>dfc93474-afd8-43f0-aeb8-fd73005a60a7</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

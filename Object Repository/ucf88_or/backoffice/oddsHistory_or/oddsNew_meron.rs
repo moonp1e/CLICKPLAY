@@ -4,7 +4,17 @@
    <name>oddsNew_meron</name>
    <tag></tag>
    <elementGuidId>c251b67d-61b1-4fc6-89bf-76ec027b9d76</elementGuidId>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;tblOddsHistory&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[4][count(. | //td[(text() = '0.96' or . = '0.96')]) = count(//td[(text() = '0.96' or . = '0.96')])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='tblOddsHistory']/tbody/tr/td[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -21,7 +31,7 @@
       <value>0.96</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

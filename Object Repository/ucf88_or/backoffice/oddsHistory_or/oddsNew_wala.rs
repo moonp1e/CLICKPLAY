@@ -4,7 +4,17 @@
    <name>oddsNew_wala</name>
    <tag></tag>
    <elementGuidId>4fcce9f6-999e-4c6c-91fc-ee66a0c175cf</elementGuidId>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;tblOddsHistory&quot;)/tbody[1]/tr[@class=&quot;even&quot;]/td[4][count(. | //td[(text() = '0.94' or . = '0.94')]) = count(//td[(text() = '0.94' or . = '0.94')])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='tblOddsHistory']/tbody/tr[2]/td[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -21,7 +31,7 @@
       <value>0.94</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

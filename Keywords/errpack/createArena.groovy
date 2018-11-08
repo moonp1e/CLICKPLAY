@@ -19,26 +19,26 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable
 
 public class createArena {
-	
+
 	@Keyword
 	public createArena() {
-		
+
 		WebUI.mouseOver(findTestObject('ucf88_or/backoffice/header_or/span_Betting'))
-		
+
 		WebUI.verifyElementPresent(findTestObject('ucf88_or/backoffice/header_or/span_Arena'), 2)
-		
+
 		WebUI.click(findTestObject('ucf88_or/backoffice/header_or/span_Arena'))
-		
+
 		WebUI.click(findTestObject('ucf88_or/backoffice/createArena_or/button_createArena'))
-		
+
 		WebUI.setText(findTestObject('ucf88_or/backoffice/createArena_or/input_arenaName'), NAME)
-		
+
 		WebUI.setText(findTestObject('ucf88_or/backoffice/createArena_or/input_eventName'), eventName)
-		
+
 		WebUI.setText(findTestObject('ucf88_or/backoffice/createArena_or/input_acronym'), acronym)
-		
+
 		WebUI.setText(findTestObject('ucf88_or/backoffice/createArena_or/input_profitMargin'), profitMargin)
-		
+
 		WebUI.click(findTestObject('ucf88_or/backoffice/createArena_or/button_submitArena'))
 	}
 }

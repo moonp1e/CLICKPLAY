@@ -4,7 +4,7 @@
    <name>oddsHistory_manual_ts</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-07T10:41:28</lastRun>
+   <lastRun>2018-11-08T17:37:02</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -122,9 +122,9 @@
          <variableId>7522ab2b-7642-48f2-8179-4c1f1996961a</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>5d44183a-8d19-442f-8082-7db5fa95d557</testDataLinkId>
+         <testDataLinkId>f31e7297-3505-450a-bfc5-68f50da264dc</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Acronym</value>
+         <value>ArenaName_Acronym</value>
          <variableId>a4bc066d-768c-466e-820d-c61cb4f95871</variableId>
       </variableLink>
    </testCaseLink>
@@ -152,9 +152,9 @@
          <testDataId>Data Files/ucf88_xml/backoffice/matchDetails</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>3865b207-6ac4-4b52-94eb-c27a4d018c75</testDataLinkId>
+         <testDataLinkId>0835eade-6229-4274-b140-8ba58206ccc3</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>ArenaName</value>
+         <value>ArenaName_Acronym</value>
          <variableId>bed4f5c3-2c8f-45f4-823f-f9c43556a802</variableId>
       </variableLink>
       <variableLink>

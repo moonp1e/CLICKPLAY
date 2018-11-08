@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+oddsHistory_manual_withoutMatch_ts,Chrome 70.0.3538.77,,2018-11-07 15:49:56,2018-11-07 15:50:22,26.288s,FAILED
+,,,,,,
+Test Cases/ucf88_tc/backoffice/odds history/oddsHistory_manual_tc,Chrome 70.0.3538.77,,2018-11-07 15:49:56,2018-11-07 15:50:21,25.431s,FAILED
+errpack.loginBackoffice.getLogin,Chrome 70.0.3538.77,,2018-11-07 15:49:56,2018-11-07 15:50:03,6.980s,PASSED
+mouseOver,Chrome 70.0.3538.77,,2018-11-07 15:50:03,2018-11-07 15:50:03,0.126s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-07 15:50:03,2018-11-07 15:50:04,0.622s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-07 15:50:04,2018-11-07 15:50:21,17.395s,FAILED
