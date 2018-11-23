@@ -13,13 +13,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'errpack.loginBackoffice.getLogin'()
+CustomKeywords.'mjpack.loginBackoffice.getLogin'()
 
-WebUI.mouseOver(findTestObject('ucf88_or/backoffice/header_or/span_Betting'))
+WebUI.mouseOver(findTestObject('ucf88_or/backoffice/header_or/span_betting'))
 
-WebUI.verifyElementPresent(findTestObject('ucf88_or/backoffice/header_or/span_Arena'), 2)
+WebUI.verifyElementPresent(findTestObject('ucf88_or/backoffice/header_or/span_arena'), 2)
 
-WebUI.click(findTestObject('ucf88_or/backoffice/header_or/span_Arena'))
+WebUI.click(findTestObject('ucf88_or/backoffice/header_or/span_arena'))
 
 WebUI.click(findTestObject('ucf88_or/backoffice/createArena_or/button_createArena'))
 

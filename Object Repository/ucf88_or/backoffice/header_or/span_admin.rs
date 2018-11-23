@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html[1]/body[@class=&quot;page-header-fixed page-container-bg-solid&quot;]/div[@class=&quot;page-wrapper&quot;]/div[@class=&quot;page-wrapper-row&quot;]/div[@class=&quot;page-wrapper-top&quot;]/div[@class=&quot;page-header navbar-fixed-top&quot;]/div[@class=&quot;page-header-top&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;top-menu&quot;]/ul[@class=&quot;nav navbar-nav pull-right&quot;]/li[@class=&quot;dropdown dropdown-user dropdown-dark&quot;]/a[@class=&quot;dropdown-toggle&quot;]/span[@class=&quot;username username-hide-mobile&quot;][count(. | //span[(text() = ' admin ' or . = ' admin ')]) = count(//span[(text() = ' admin ' or . = ' admin ')])]</value>
+         <value>//li [@class=&quot;dropdown dropdown-user dropdown-dark&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -17,7 +17,7 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -31,7 +31,7 @@
       <value>username username-hide-mobile</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;page-header-fixed page-container-bg-solid&quot;]/div[@class=&quot;page-wrapper&quot;]/div[@class=&quot;page-wrapper-row&quot;]/div[@class=&quot;page-wrapper-top&quot;]/div[@class=&quot;page-header navbar-fixed-top&quot;]/div[@class=&quot;page-header-top&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;top-menu&quot;]/ul[@class=&quot;nav navbar-nav pull-right&quot;]/li[@class=&quot;dropdown dropdown-user dropdown-dark&quot;]/a[@class=&quot;dropdown-toggle&quot;]/span[@class=&quot;username username-hide-mobile&quot;]</value>
+      <value>//li [@class=&quot;dropdown dropdown-user dropdown-dark&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

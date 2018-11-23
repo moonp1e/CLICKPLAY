@@ -14,9 +14,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-//CustomKeywords.'errpack.loginBackoffice.getLogin'()
+//CustomKeywords.'mjpack.loginBackoffice.getLogin'()
 
-WebUI.mouseOver(findTestObject('ucf88_or/backoffice/header_or/span_Betting'))
+WebUI.mouseOver(findTestObject('ucf88_or/backoffice/header_or/span_betting'))
 
 WebUI.delay(1)
 
@@ -40,11 +40,11 @@ WebUI.click(findTestObject('ucf88_or/backoffice/oddsHistory_or/span_selectMatch'
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('ucf88_or/backoffice/oddsHistory_or/input_arenaName'), EventName)
+WebUI.setText(findTestObject('ucf88_or/backoffice/oddsHistory_or/input__selectMatch'), EventName)
 
 WebUI.delay(1)
 
-WebUI.sendKeys(findTestObject('ucf88_or/backoffice/oddsHistory_or/input_arenaName'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('ucf88_or/backoffice/oddsHistory_or/input__selectMatch'), Keys.chord(Keys.ENTER))
 
 WebUI.delay(1)
 
@@ -61,4 +61,5 @@ WebUI.verifyElementText(findTestObject('ucf88_or/backoffice/oddsHistory_or/oddsN
 WebUI.delay(1)
 
 WebUI.verifyElementText(findTestObject('ucf88_or/backoffice/oddsHistory_or/oddsNew_wala'), '0.94')
+
 

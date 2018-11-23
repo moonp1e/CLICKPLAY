@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+createMatch_ts,Chrome 70.0.3538.102,,2018-11-21 12:33:06,2018-11-21 12:33:19,13.211s,FAILED
+,,,,,,
+Test Cases/ucf88_tc/backoffice/createMatch/createMatch_tc,Chrome 70.0.3538.102,,2018-11-21 12:33:06,2018-11-21 12:33:18,11.596s,FAILED
+mjpack.loginBackoffice.getLogin,Chrome 70.0.3538.102,,2018-11-21 12:33:07,2018-11-21 12:33:17,10.335s,PASSED
+verifyElementPresent,Chrome 70.0.3538.102,,2018-11-21 12:33:17,2018-11-21 12:33:17,0.035s,PASSED
+mouseOver,Chrome 70.0.3538.102,,2018-11-21 12:33:17,2018-11-21 12:33:18,0.157s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-21 12:33:18,2018-11-21 12:33:18,0.085s,FAILED

@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+oddsHistory_manual_withoutMatch_ts,,,2018-11-13 10:07:15,2018-11-13 10:07:16,0.845s,FAILED
+,,,,,,
+Test Cases/ucf88_tc/backoffice/odds history/oddsHistory_manual_tc,,,2018-11-13 10:07:15,2018-11-13 10:07:16,0.535s,FAILED
+mouseOver,,,2018-11-13 10:07:16,2018-11-13 10:07:16,0.269s,FAILED

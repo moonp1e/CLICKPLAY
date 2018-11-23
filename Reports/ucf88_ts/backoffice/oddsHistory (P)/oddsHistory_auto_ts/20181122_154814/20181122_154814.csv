@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+oddsHistory_auto_ts,Chrome 70.0.3538.102,,2018-11-22 15:48:19,2018-11-22 15:49:05,45.820s,FAILED
+,,,,,,
+Test Cases/ucf88_tc/backoffice/createArena/createArena_tc,Chrome 70.0.3538.102,,2018-11-22 15:48:20,2018-11-22 15:48:34,14.785s,PASSED
+mjpack.loginBackoffice.getLogin,Chrome 70.0.3538.102,,2018-11-22 15:48:20,2018-11-22 15:48:29,9.112s,PASSED
+mouseOver,Chrome 70.0.3538.102,,2018-11-22 15:48:29,2018-11-22 15:48:29,0.105s,PASSED
+verifyElementPresent,Chrome 70.0.3538.102,,2018-11-22 15:48:29,2018-11-22 15:48:29,0.046s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 15:48:29,2018-11-22 15:48:30,0.825s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 15:48:30,2018-11-22 15:48:30,0.100s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-22 15:48:30,2018-11-22 15:48:31,1.021s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 15:48:31,2018-11-22 15:48:31,0.200s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 15:48:31,2018-11-22 15:48:31,0.104s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 15:48:31,2018-11-22 15:48:31,0.114s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 15:48:31,2018-11-22 15:48:32,0.092s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-22 15:48:32,2018-11-22 15:48:33,1.002s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 15:48:33,2018-11-22 15:48:33,0.777s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-22 15:48:33,2018-11-22 15:48:34,1.002s,PASSED
+,,,,,,
+Test Cases/ucf88_tc/backoffice/createMatch/createMatch_tc,Chrome 70.0.3538.102,,2018-11-22 15:48:34,2018-11-22 15:48:37,2.277s,FAILED
+verifyElementPresent,Chrome 70.0.3538.102,,2018-11-22 15:48:35,2018-11-22 15:48:35,0.024s,PASSED
+mouseOver,Chrome 70.0.3538.102,,2018-11-22 15:48:35,2018-11-22 15:48:35,0.035s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 15:48:35,2018-11-22 15:48:35,0.769s,PASSED
+verifyElementNotPresent,Chrome 70.0.3538.102,,2018-11-22 15:48:35,2018-11-22 15:48:37,1.167s,FAILED
+,,,,,,
+Test Cases/ucf88_tc/frontend/betting/betting,Chrome 70.0.3538.102,,2018-11-22 15:48:37,2018-11-22 15:48:50,13.067s,FAILED
+mjpack.loginFrontend.getLogin,Chrome 70.0.3538.102,,2018-11-22 15:48:37,2018-11-22 15:48:45,8.240s,PASSED
+verifyElementPresent,Chrome 70.0.3538.102,,2018-11-22 15:48:45,2018-11-22 15:48:46,1.166s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-22 15:48:46,2018-11-22 15:48:48,2.002s,PASSED
+"Statement - tempBalance = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ucf88_or/frontend/betting/span_balance), CONTINUE_ON_FAILURE)",Chrome 70.0.3538.102,,2018-11-22 15:48:48,2018-11-22 15:48:48,0.105s,PASSED
+"Statement - balance = tempBalance.replace("","", """")",Chrome 70.0.3538.102,,2018-11-22 15:48:48,2018-11-22 15:48:48,0.001s,PASSED
+Statement - balance = java.lang.Float.valueOf(balance),Chrome 70.0.3538.102,,2018-11-22 15:48:48,2018-11-22 15:48:48,0.004s,PASSED
+"Statement - arenaPresent = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ucf88_or/frontend/betting/button_arena), 1)",Chrome 70.0.3538.102,,2018-11-22 15:48:48,2018-11-22 15:48:50,1.363s,FAILED
+,,,,,,
+Test Cases/ucf88_tc/backoffice/odds history/oddsHistory_auto_tc,Chrome 70.0.3538.102,,2018-11-22 15:48:50,2018-11-22 15:49:05,14.845s,FAILED
+mjpack.loginBackoffice.getLogin,Chrome 70.0.3538.102,,2018-11-22 15:48:50,2018-11-22 15:49:05,14.682s,FAILED

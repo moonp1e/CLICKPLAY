@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="auditTrails_ts" time="41" tests="2" failures="0" errors="0">
+   <testsuite name="auditTrails_ts" tests="2" failures="0" errors="0" time="41" timestamp="2018-11-22 14:43:01" hostname="janine.bautista - J9" id="Test Suites/ucf88_ts/backoffice/auditTrail (P)/auditTrails_ts">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\janine.bautista\\git\\CLICKPLAY\\Reports\\ucf88_ts\\backoffice\\auditTrail (P)\\auditTrails_ts\\20181122_144253"/>
+         <property name="logFiles" value="C:\\Users\\janine.bautista\\git\\CLICKPLAY\\Reports\\ucf88_ts\\backoffice\\auditTrail (P)\\auditTrails_ts\\20181122_144253\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="janine.bautista - J9"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="172.16.8.107"/>
+         <property name="sessionId" value="0f96fcb4ff9c5425fa511c37c0e63922"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ucf88_tc/backoffice/createArena/createArena_tc" classname="Test Cases/ucf88_tc/backoffice/createArena/createArena_tc" status="PASSED">
+         <system-out><![CDATA[2018-11-22 14:43:01 - [TEST_CASE][PASSED] - Test Cases/ucf88_tc/backoffice/createArena/createArena_tc: Test Cases/ucf88_tc/backoffice/createArena/createArena_tc
+
+2018-11-22 14:43:01 - [TEST_STEP][PASSED] - mjpack.loginBackoffice.getLogin: mjpack.loginBackoffice.getLogin is PASSED
+
+2018-11-22 14:43:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-22 14:43:06 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com/login' successfully
+
+2018-11-22 14:43:07 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-22 14:43:07 - [MESSAGE][PASSED] - Text 'janine' is set on object 'Object Repository/ucf88_or/backoffice/login_or/input_username_bo'
+
+2018-11-22 14:43:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/ucf88_or/backoffice/login_or/input_password_bo'
+
+2018-11-22 14:43:09 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/login_or/button_login_bo' is clicked on
+
+2018-11-22 14:43:09 - [MESSAGE][PASSED] - Object 'Object Repository/ucf88_or/backoffice/header_or/span_admin' is present
+
+2018-11-22 14:43:09 - [MESSAGE][PASSED] - mjpack.loginBackoffice.getLogin is PASSED
+
+2018-11-22 14:43:09 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/ucf88_or/backoffice/header_or/span_betting' is hovered
+
+2018-11-22 14:43:09 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/header_or/span_betting' is hovered
+
+2018-11-22 14:43:09 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ucf88_or/backoffice/header_or/span_arena' is present
+
+2018-11-22 14:43:09 - [MESSAGE][PASSED] - Object 'Object Repository/ucf88_or/backoffice/header_or/span_arena' is present
+
+2018-11-22 14:43:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/header_or/span_arena' is clicked on
+
+2018-11-22 14:43:11 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/header_or/span_arena' is clicked on
+
+2018-11-22 14:43:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/createArena_or/button_createArena' is clicked on
+
+2018-11-22 14:43:11 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/createArena_or/button_createArena' is clicked on
+
+2018-11-22 14:43:11 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-22 14:43:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-22 14:43:12 - [TEST_STEP][PASSED] - setText: Text 'ARENA_TEST1' is set on object 'Object Repository/ucf88_or/backoffice/createArena_or/input_arenaName'
+
+2018-11-22 14:43:13 - [MESSAGE][PASSED] - Text 'ARENA_TEST1' is set on object 'Object Repository/ucf88_or/backoffice/createArena_or/input_arenaName'
+
+2018-11-22 14:43:13 - [TEST_STEP][PASSED] - setText: Text 'F1' is set on object 'Object Repository/ucf88_or/backoffice/createArena_or/input_eventName'
+
+2018-11-22 14:43:13 - [MESSAGE][PASSED] - Text 'F1' is set on object 'Object Repository/ucf88_or/backoffice/createArena_or/input_eventName'
+
+2018-11-22 14:43:13 - [TEST_STEP][PASSED] - setText: Text 'TEST1' is set on object 'Object Repository/ucf88_or/backoffice/createArena_or/input_acronym'
+
+2018-11-22 14:43:13 - [MESSAGE][PASSED] - Text 'TEST1' is set on object 'Object Repository/ucf88_or/backoffice/createArena_or/input_acronym'
+
+2018-11-22 14:43:13 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/ucf88_or/backoffice/createArena_or/input_profitMargin'
+
+2018-11-22 14:43:13 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/ucf88_or/backoffice/createArena_or/input_profitMargin'
+
+2018-11-22 14:43:13 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-22 14:43:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-22 14:43:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/createArena_or/button_submitArena' is clicked on
+
+2018-11-22 14:43:15 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/createArena_or/button_submitArena' is clicked on
+
+2018-11-22 14:43:15 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-22 14:43:16 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ucf88_tc/backoffice/createMatch/createMatch_tc" classname="Test Cases/ucf88_tc/backoffice/createMatch/createMatch_tc" status="PASSED">
+         <system-out><![CDATA[2018-11-22 14:43:16 - [TEST_CASE][PASSED] - Test Cases/ucf88_tc/backoffice/createMatch/createMatch_tc: Test Cases/ucf88_tc/backoffice/createMatch/createMatch_tc
+
+2018-11-22 14:43:16 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ucf88_or/backoffice/header_or/span_match' is present
+
+2018-11-22 14:43:16 - [MESSAGE][PASSED] - Object 'Object Repository/ucf88_or/backoffice/header_or/span_match' is present
+
+2018-11-22 14:43:16 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/ucf88_or/backoffice/header_or/span_betting' is hovered
+
+2018-11-22 14:43:16 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/header_or/span_betting' is hovered
+
+2018-11-22 14:43:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/header_or/span_match' is clicked on
+
+2018-11-22 14:43:17 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/header_or/span_match' is clicked on
+
+2018-11-22 14:43:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/createMatch_or/button_createMatch' is clicked on
+
+2018-11-22 14:43:17 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/createMatch_or/button_createMatch' is clicked on
+
+2018-11-22 14:43:17 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-22 14:43:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-22 14:43:18 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ucf88_or/backoffice/createMatch_or/text_addMatch' is present
+
+2018-11-22 14:43:18 - [MESSAGE][PASSED] - Object 'Object Repository/ucf88_or/backoffice/createMatch_or/text_addMatch' is present
+
+2018-11-22 14:43:18 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-22 14:43:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-22 14:43:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/createMatch_or/dropdown_selectArena' is clicked on
+
+2018-11-22 14:43:19 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/createMatch_or/dropdown_selectArena' is clicked on
+
+2018-11-22 14:43:19 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-22 14:43:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-22 14:43:20 - [TEST_STEP][PASSED] - setText: Text 'ARENA_TEST1 - TEST1' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_selectArena'
+
+2018-11-22 14:43:21 - [MESSAGE][PASSED] - Text 'ARENA_TEST1 - TEST1' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_selectArena'
+
+2018-11-22 14:43:21 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-22 14:43:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-22 14:43:22 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/ucf88_or/backoffice/createMatch_or/input_selectArena'
+
+2018-11-22 14:43:22 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ucf88_or/backoffice/createMatch_or/input_selectArena'
+
+2018-11-22 14:43:22 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-22 14:43:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-22 14:43:23 - [TEST_STEP][PASSED] - setText: Text 'AA' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_name_meron'
+
+2018-11-22 14:43:23 - [MESSAGE][PASSED] - Text 'AA' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_name_meron'
+
+2018-11-22 14:43:23 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-22 14:43:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-22 14:43:24 - [TEST_STEP][PASSED] - setText: Text 'BB' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_name_wala'
+
+2018-11-22 14:43:24 - [MESSAGE][PASSED] - Text 'BB' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_name_wala'
+
+2018-11-22 14:43:24 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-22 14:43:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-22 14:43:25 - [TEST_STEP][PASSED] - setText: Text 'Farm 1' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_farm_meron'
+
+2018-11-22 14:43:25 - [MESSAGE][PASSED] - Text 'Farm 1' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_farm_meron'
+
+2018-11-22 14:43:25 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-22 14:43:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-22 14:43:26 - [TEST_STEP][PASSED] - setText: Text 'Farm 2' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_farm_wala'
+
+2018-11-22 14:43:26 - [MESSAGE][PASSED] - Text 'Farm 2' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_farm_wala'
+
+2018-11-22 14:43:26 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-22 14:43:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-22 14:43:27 - [TEST_STEP][PASSED] - setText: Text 'Breed 1' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_breed_meron'
+
+2018-11-22 14:43:27 - [MESSAGE][PASSED] - Text 'Breed 1' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_breed_meron'
+
+2018-11-22 14:43:27 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-22 14:43:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-22 14:43:28 - [TEST_STEP][PASSED] - setText: Text 'Breed 2 ' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_breed_wala'
+
+2018-11-22 14:43:28 - [MESSAGE][PASSED] - Text 'Breed 2 ' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_breed_wala'
+
+2018-11-22 14:43:28 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-22 14:43:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-22 14:43:29 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_weight_meron'
+
+2018-11-22 14:43:30 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_weight_meron'
+
+2018-11-22 14:43:30 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-22 14:43:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-22 14:43:31 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_weight_wala'
+
+2018-11-22 14:43:31 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_weight_wala'
+
+2018-11-22 14:43:31 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-22 14:43:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-22 14:43:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/createMatch_or/button_submitMatch' is clicked on
+
+2018-11-22 14:43:33 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/createMatch_or/button_submitMatch' is clicked on
+
+2018-11-22 14:43:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/createMatch_or/link_Clickmatch' is clicked on
+
+2018-11-22 14:43:33 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/createMatch_or/link_Clickmatch' is clicked on
+
+2018-11-22 14:43:33 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-22 14:43:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-22 14:43:34 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-11-22 14:43:34 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-11-22 14:43:34 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-22 14:43:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-22 14:43:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/createMatch_or/button_openMatch' is clicked on
+
+2018-11-22 14:43:36 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/createMatch_or/button_openMatch' is clicked on
+
+2018-11-22 14:43:36 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-22 14:43:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-22 14:43:37 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ucf88_or/backoffice/createMatch_or/button_agreeOpenMatch' is visible
+
+2018-11-22 14:43:37 - [MESSAGE][PASSED] - Object 'Object Repository/ucf88_or/backoffice/createMatch_or/button_agreeOpenMatch' is visible
+
+2018-11-22 14:43:37 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-22 14:43:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-22 14:43:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/createMatch_or/button_agreeOpenMatch' is clicked on
+
+2018-11-22 14:43:38 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/createMatch_or/button_agreeOpenMatch' is clicked on
+
+2018-11-22 14:43:38 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-22 14:43:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-22 14:43:40 - [TEST_STEP][PASSED] - closeWindowIndex: Window with index 1 is closed
+
+2018-11-22 14:43:40 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2018-11-22 14:43:40 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-11-22 14:43:40 - [MESSAGE][PASSED] - Switched to window with index: '0']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ucf88_tc/backoffice/auditTrail/auditTrail" classname="Test Cases/ucf88_tc/backoffice/auditTrail/auditTrail" status="INCOMPLETE">
+         <system-out><![CDATA[2018-11-22 14:43:40 - [TEST_CASE][INCOMPLETE] - Test Cases/ucf88_tc/backoffice/auditTrail/auditTrail: null
+
+2018-11-22 14:43:41 - [TEST_STEP][PASSED] - Statement - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-11-22 14:43:41 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/ucf88_or/backoffice/header_or/span_betting' is hovered
+
+2018-11-22 14:43:41 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/header_or/span_betting' is hovered
+
+2018-11-22 14:43:41 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ucf88_or/backoffice/header_or/span_auditTrails' is present
+
+2018-11-22 14:43:41 - [MESSAGE][PASSED] - Object 'Object Repository/ucf88_or/backoffice/header_or/span_auditTrails' is present
+
+2018-11-22 14:43:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/header_or/span_auditTrails' is clicked on
+
+2018-11-22 14:43:41 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/header_or/span_auditTrails' is clicked on
+
+2018-11-22 14:43:41 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-22 14:43:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-22 14:43:42 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-11-22 14:43:42 - [TEST_STEP][PASSED] - Statement - ExpectedValue = "janine": null
+
+2018-11-22 14:43:42 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//table/tbody")): null
+
+2018-11-22 14:43:43 - [TEST_STEP][PASSED] - Statement - rows_table = Table.findElements(org.openqa.selenium.By.tagName("tr")): null
+
+2018-11-22 14:43:43 - [TEST_STEP][PASSED] - Statement - rows_count = rows_table.size(): null
+
+2018-11-22 14:43:43 - [TEST_STEP][PASSED] - Statement - println(rows_count): null
+
+2018-11-22 14:43:43 - [TEST_STEP][INCOMPLETE] - Statement - For ([row = 0, row < rows_count, (row++)]): null
+
+2018-11-22 14:43:43 - [TEST_STEP][PASSED] - Statement - Columns_row = rows_table.get(row).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-11-22 14:43:43 - [TEST_STEP][PASSED] - Statement - columns_count = Columns_row.size(): null
+
+2018-11-22 14:43:43 - [TEST_STEP][PASSED] - Statement - out.println("Number of cells in Row " + row + " are " + columns_count): null
+
+2018-11-22 14:43:43 - [TEST_STEP][INCOMPLETE] - Statement - For ([column = 0, column < columns_count, (column++)]): null
+
+2018-11-22 14:43:43 - [TEST_STEP][PASSED] - Statement - celltext = Columns_row.get(column).getText(): null
+
+2018-11-22 14:43:43 - [TEST_STEP][PASSED] - Statement - out.println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2018-11-22 14:43:43 - [TEST_STEP][PASSED] - Statement - If (celltext == ExpectedValue): null
+
+2018-11-22 14:43:43 - [TEST_STEP][PASSED] - Statement - celltext = Columns_row.get(column).getText(): null
+
+2018-11-22 14:43:43 - [TEST_STEP][PASSED] - Statement - out.println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2018-11-22 14:43:43 - [TEST_STEP][PASSED] - Statement - If (celltext == ExpectedValue): null
+
+2018-11-22 14:43:43 - [TEST_STEP][PASSED] - Statement - celltext = Columns_row.get(column).getText(): null
+
+2018-11-22 14:43:43 - [TEST_STEP][PASSED] - Statement - out.println("Cell Value Of row number " + row + " and column number " + column + " Is " + celltext): null
+
+2018-11-22 14:43:43 - [TEST_STEP][INCOMPLETE] - Statement - If (celltext == ExpectedValue): null
+
+2018-11-22 14:43:43 - [TEST_STEP][PASSED] - Statement - out.println("Text is present in row: " + row + " , column: " + column): null
+
+2018-11-22 14:43:43 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.util.KeywordUtil.markPassed("MERON SA TABLE!!!"): MERON SA TABLE!!!
+
+2018-11-22 14:43:43 - [MESSAGE][PASSED] - MERON SA TABLE!!!
+
+2018-11-22 14:43:43 - [TEST_STEP][INCOMPLETE] - Statement - java.lang.System.exit(1): null]]></system-out>
+         <system-err><![CDATA[2018-11-22 14:43:40 - [TEST_CASE][INCOMPLETE] - Test Cases/ucf88_tc/backoffice/auditTrail/auditTrail: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-22 14:43:01 - [TEST_SUITE][INCOMPLETE] - auditTrails_ts: null]]></system-out>
+      <system-err><![CDATA[2018-11-22 14:43:01 - [TEST_SUITE][INCOMPLETE] - auditTrails_ts: null]]></system-err>
+   </testsuite>
+</testsuites>

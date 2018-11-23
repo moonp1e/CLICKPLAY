@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="oddsHistory_auto_ts" time="50" tests="3" failures="0" errors="1">
+   <testsuite name="oddsHistory_auto_ts" tests="3" failures="0" errors="1" time="50" timestamp="2018-11-22 15:24:46" hostname="janine.bautista - J9" id="Test Suites/ucf88_ts/backoffice/oddsHistory (P)/oddsHistory_auto_ts">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\janine.bautista\\git\\CLICKPLAY\\Reports\\ucf88_ts\\backoffice\\oddsHistory (P)\\oddsHistory_auto_ts\\20181122_152443"/>
+         <property name="logFiles" value="C:\\Users\\janine.bautista\\git\\CLICKPLAY\\Reports\\ucf88_ts\\backoffice\\oddsHistory (P)\\oddsHistory_auto_ts\\20181122_152443\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="janine.bautista - J9"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="172.16.8.107"/>
+         <property name="sessionId" value="c55e6a5117c93497ffb1a1b00aa3fd3f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ucf88_tc/backoffice/createArena/createArena_tc" classname="Test Cases/ucf88_tc/backoffice/createArena/createArena_tc" status="PASSED">
+         <system-out><![CDATA[2018-11-22 15:24:46 - [TEST_CASE][PASSED] - Test Cases/ucf88_tc/backoffice/createArena/createArena_tc: Test Cases/ucf88_tc/backoffice/createArena/createArena_tc
+
+2018-11-22 15:24:46 - [TEST_STEP][PASSED] - mjpack.loginBackoffice.getLogin: mjpack.loginBackoffice.getLogin is PASSED
+
+2018-11-22 15:24:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-22 15:24:51 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com/login' successfully
+
+2018-11-22 15:24:52 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-22 15:24:52 - [MESSAGE][PASSED] - Text 'janine' is set on object 'Object Repository/ucf88_or/backoffice/login_or/input_username_bo'
+
+2018-11-22 15:24:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/ucf88_or/backoffice/login_or/input_password_bo'
+
+2018-11-22 15:24:54 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/login_or/button_login_bo' is clicked on
+
+2018-11-22 15:24:54 - [MESSAGE][PASSED] - Object 'Object Repository/ucf88_or/backoffice/header_or/span_admin' is present
+
+2018-11-22 15:24:54 - [MESSAGE][PASSED] - mjpack.loginBackoffice.getLogin is PASSED
+
+2018-11-22 15:24:54 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/ucf88_or/backoffice/header_or/span_betting' is hovered
+
+2018-11-22 15:24:54 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/header_or/span_betting' is hovered
+
+2018-11-22 15:24:54 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ucf88_or/backoffice/header_or/span_arena' is present
+
+2018-11-22 15:24:54 - [MESSAGE][PASSED] - Object 'Object Repository/ucf88_or/backoffice/header_or/span_arena' is present
+
+2018-11-22 15:24:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/header_or/span_arena' is clicked on
+
+2018-11-22 15:24:55 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/header_or/span_arena' is clicked on
+
+2018-11-22 15:24:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/createArena_or/button_createArena' is clicked on
+
+2018-11-22 15:24:55 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/createArena_or/button_createArena' is clicked on
+
+2018-11-22 15:24:55 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-22 15:24:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-22 15:24:56 - [TEST_STEP][PASSED] - setText: Text 'ARENA_TEST1' is set on object 'Object Repository/ucf88_or/backoffice/createArena_or/input_arenaName'
+
+2018-11-22 15:24:56 - [MESSAGE][PASSED] - Text 'ARENA_TEST1' is set on object 'Object Repository/ucf88_or/backoffice/createArena_or/input_arenaName'
+
+2018-11-22 15:24:56 - [TEST_STEP][PASSED] - setText: Text 'F1' is set on object 'Object Repository/ucf88_or/backoffice/createArena_or/input_eventName'
+
+2018-11-22 15:24:57 - [MESSAGE][PASSED] - Text 'F1' is set on object 'Object Repository/ucf88_or/backoffice/createArena_or/input_eventName'
+
+2018-11-22 15:24:57 - [TEST_STEP][PASSED] - setText: Text 'TEST1' is set on object 'Object Repository/ucf88_or/backoffice/createArena_or/input_acronym'
+
+2018-11-22 15:24:57 - [MESSAGE][PASSED] - Text 'TEST1' is set on object 'Object Repository/ucf88_or/backoffice/createArena_or/input_acronym'
+
+2018-11-22 15:24:57 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/ucf88_or/backoffice/createArena_or/input_profitMargin'
+
+2018-11-22 15:24:57 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/ucf88_or/backoffice/createArena_or/input_profitMargin'
+
+2018-11-22 15:24:57 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-22 15:24:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-22 15:24:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/createArena_or/button_submitArena' is clicked on
+
+2018-11-22 15:24:59 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/createArena_or/button_submitArena' is clicked on
+
+2018-11-22 15:24:59 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-22 15:25:00 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ucf88_tc/backoffice/createMatch/createMatch_tc" classname="Test Cases/ucf88_tc/backoffice/createMatch/createMatch_tc" status="PASSED">
+         <system-out><![CDATA[2018-11-22 15:25:00 - [TEST_CASE][PASSED] - Test Cases/ucf88_tc/backoffice/createMatch/createMatch_tc: Test Cases/ucf88_tc/backoffice/createMatch/createMatch_tc
+
+2018-11-22 15:25:00 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ucf88_or/backoffice/header_or/span_match' is present
+
+2018-11-22 15:25:00 - [MESSAGE][PASSED] - Object 'Object Repository/ucf88_or/backoffice/header_or/span_match' is present
+
+2018-11-22 15:25:00 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/ucf88_or/backoffice/header_or/span_betting' is hovered
+
+2018-11-22 15:25:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/header_or/span_betting' is hovered
+
+2018-11-22 15:25:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/header_or/span_match' is clicked on
+
+2018-11-22 15:25:01 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/header_or/span_match' is clicked on
+
+2018-11-22 15:25:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/createMatch_or/button_createMatch' is clicked on
+
+2018-11-22 15:25:01 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/createMatch_or/button_createMatch' is clicked on
+
+2018-11-22 15:25:01 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-22 15:25:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-22 15:25:02 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ucf88_or/backoffice/createMatch_or/text_addMatch' is present
+
+2018-11-22 15:25:02 - [MESSAGE][PASSED] - Object 'Object Repository/ucf88_or/backoffice/createMatch_or/text_addMatch' is present
+
+2018-11-22 15:25:02 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-22 15:25:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-22 15:25:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/createMatch_or/dropdown_selectArena' is clicked on
+
+2018-11-22 15:25:03 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/createMatch_or/dropdown_selectArena' is clicked on
+
+2018-11-22 15:25:03 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-22 15:25:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-22 15:25:04 - [TEST_STEP][PASSED] - setText: Text 'ARENA_TEST1 - TEST1' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_selectArena'
+
+2018-11-22 15:25:04 - [MESSAGE][PASSED] - Text 'ARENA_TEST1 - TEST1' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_selectArena'
+
+2018-11-22 15:25:04 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-22 15:25:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-22 15:25:05 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/ucf88_or/backoffice/createMatch_or/input_selectArena'
+
+2018-11-22 15:25:05 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ucf88_or/backoffice/createMatch_or/input_selectArena'
+
+2018-11-22 15:25:05 - [TEST_STEP][PASSED] - setText: Text 'AA' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_name_meron'
+
+2018-11-22 15:25:05 - [MESSAGE][PASSED] - Text 'AA' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_name_meron'
+
+2018-11-22 15:25:05 - [TEST_STEP][PASSED] - setText: Text 'BB' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_name_wala'
+
+2018-11-22 15:25:05 - [MESSAGE][PASSED] - Text 'BB' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_name_wala'
+
+2018-11-22 15:25:05 - [TEST_STEP][PASSED] - setText: Text 'Farm 1' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_farm_meron'
+
+2018-11-22 15:25:06 - [MESSAGE][PASSED] - Text 'Farm 1' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_farm_meron'
+
+2018-11-22 15:25:06 - [TEST_STEP][PASSED] - setText: Text 'Farm 2' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_farm_wala'
+
+2018-11-22 15:25:06 - [MESSAGE][PASSED] - Text 'Farm 2' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_farm_wala'
+
+2018-11-22 15:25:06 - [TEST_STEP][PASSED] - setText: Text 'Breed 1' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_breed_meron'
+
+2018-11-22 15:25:06 - [MESSAGE][PASSED] - Text 'Breed 1' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_breed_meron'
+
+2018-11-22 15:25:06 - [TEST_STEP][PASSED] - setText: Text 'Breed 2 ' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_breed_wala'
+
+2018-11-22 15:25:06 - [MESSAGE][PASSED] - Text 'Breed 2 ' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_breed_wala'
+
+2018-11-22 15:25:06 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_weight_meron'
+
+2018-11-22 15:25:06 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_weight_meron'
+
+2018-11-22 15:25:06 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_weight_wala'
+
+2018-11-22 15:25:06 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/ucf88_or/backoffice/createMatch_or/input_weight_wala'
+
+2018-11-22 15:25:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/createMatch_or/button_submitMatch' is clicked on
+
+2018-11-22 15:25:07 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/createMatch_or/button_submitMatch' is clicked on
+
+2018-11-22 15:25:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/createMatch_or/link_Clickmatch' is clicked on
+
+2018-11-22 15:25:07 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/createMatch_or/link_Clickmatch' is clicked on
+
+2018-11-22 15:25:07 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-11-22 15:25:07 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-11-22 15:25:07 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-22 15:25:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-22 15:25:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/createMatch_or/button_openMatch' is clicked on
+
+2018-11-22 15:25:09 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/createMatch_or/button_openMatch' is clicked on
+
+2018-11-22 15:25:09 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ucf88_or/backoffice/createMatch_or/button_agreeOpenMatch' is visible
+
+2018-11-22 15:25:10 - [MESSAGE][PASSED] - Object 'Object Repository/ucf88_or/backoffice/createMatch_or/button_agreeOpenMatch' is visible
+
+2018-11-22 15:25:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/createMatch_or/button_agreeOpenMatch' is clicked on
+
+2018-11-22 15:25:10 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/createMatch_or/button_agreeOpenMatch' is clicked on
+
+2018-11-22 15:25:10 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-22 15:25:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-22 15:25:12 - [TEST_STEP][PASSED] - closeWindowIndex: Window with index 1 is closed
+
+2018-11-22 15:25:12 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2018-11-22 15:25:12 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-11-22 15:25:12 - [MESSAGE][PASSED] - Switched to window with index: '0']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ucf88_tc/frontend/betting/betting" classname="Test Cases/ucf88_tc/frontend/betting/betting" status="PASSED">
+         <system-out><![CDATA[2018-11-22 15:25:12 - [TEST_CASE][PASSED] - Test Cases/ucf88_tc/frontend/betting/betting: Test Cases/ucf88_tc/frontend/betting/betting
+
+2018-11-22 15:25:12 - [TEST_STEP][PASSED] - mjpack.loginFrontend.getLogin: mjpack.loginFrontend.getLogin is PASSED
+
+2018-11-22 15:25:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-22 15:25:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-22 15:25:16 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-22 15:25:18 - [MESSAGE][PASSED] - Navigate to 'http://dev-operator.ucf88.com/#/' successfully
+
+2018-11-22 15:25:18 - [MESSAGE][PASSED] - Text 'janine' is set on object 'Object Repository/ucf88_or/frontend/login_or/input_username_fe'
+
+2018-11-22 15:25:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-22 15:25:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/ucf88_or/frontend/login_or/input_password_fe'
+
+2018-11-22 15:25:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-22 15:25:20 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/frontend/login_or/button_login_fe' is clicked on
+
+2018-11-22 15:25:20 - [MESSAGE][PASSED] - mjpack.loginFrontend.getLogin is PASSED
+
+2018-11-22 15:25:20 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ucf88_or/frontend/betting/span_logout' is present
+
+2018-11-22 15:25:21 - [MESSAGE][PASSED] - Object 'Object Repository/ucf88_or/frontend/betting/span_logout' is present
+
+2018-11-22 15:25:21 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-22 15:25:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-22 15:25:23 - [TEST_STEP][PASSED] - Statement - tempBalance = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ucf88_or/frontend/betting/span_balance), CONTINUE_ON_FAILURE): Text of object 'Object Repository/ucf88_or/frontend/betting/span_balance' is: '999,315,730.00'
+
+2018-11-22 15:25:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/ucf88_or/frontend/betting/span_balance' is: '999,315,730.00'
+
+2018-11-22 15:25:24 - [TEST_STEP][PASSED] - Statement - balance = tempBalance.replace(",", ""): null
+
+2018-11-22 15:25:24 - [TEST_STEP][PASSED] - Statement - balance = java.lang.Float.valueOf(balance): null
+
+2018-11-22 15:25:24 - [TEST_STEP][PASSED] - Statement - arenaPresent = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ucf88_or/frontend/betting/button_arena), 1): Object 'Object Repository/ucf88_or/frontend/betting/button_arena' is present
+
+2018-11-22 15:25:24 - [MESSAGE][PASSED] - Object 'Object Repository/ucf88_or/frontend/betting/button_arena' is present
+
+2018-11-22 15:25:24 - [TEST_STEP][PASSED] - Statement - matchPresent = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ucf88_or/frontend/betting/strong_matchDetails), 1, OPTIONAL): Object 'Object Repository/ucf88_or/frontend/betting/strong_matchDetails' is present
+
+2018-11-22 15:25:24 - [MESSAGE][PASSED] - Object 'Object Repository/ucf88_or/frontend/betting/strong_matchDetails' is present
+
+2018-11-22 15:25:24 - [TEST_STEP][PASSED] - Statement - If (balance > 100 && arenaPresent && matchPresent): Object: 'Object Repository/ucf88_or/frontend/betting/button_betButton' is clicked on
+
+2018-11-22 15:25:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/frontend/betting/button_placeOdds' is clicked on
+
+2018-11-22 15:25:24 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/frontend/betting/button_placeOdds' is clicked on
+
+2018-11-22 15:25:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/frontend/betting/input_betField' is clicked on
+
+2018-11-22 15:25:24 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/frontend/betting/input_betField' is clicked on
+
+2018-11-22 15:25:24 - [TEST_STEP][PASSED] - sendKeys: Keys 'CONTROL + a' sent to object: 'Object Repository/ucf88_or/frontend/betting/input_betField'
+
+2018-11-22 15:25:24 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/ucf88_or/frontend/betting/input_betField'
+
+2018-11-22 15:25:24 - [TEST_STEP][PASSED] - setText: Text '1000' is set on object 'Object Repository/ucf88_or/frontend/betting/input_betField'
+
+2018-11-22 15:25:24 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/ucf88_or/frontend/betting/input_betField'
+
+2018-11-22 15:25:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/frontend/betting/button_betButton' is clicked on
+
+2018-11-22 15:25:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/frontend/betting/button_betButton' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ucf88_tc/backoffice/odds history/oddsHistory_auto_tc" classname="Test Cases/ucf88_tc/backoffice/odds history/oddsHistory_auto_tc" status="ERROR">
+         <error type="ERROR" message="Test Cases/ucf88_tc/backoffice/odds history/oddsHistory_auto_tc FAILED because (of) (Stack trace: groovy.lang.MissingPropertyException: No such property: ArenaName_Acronym for class: Script1541737622831
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:53)
+	at org.codehaus.groovy.runtime.callsite.PogoGetPropertySite.getProperty(PogoGetPropertySite.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGroovyObjectGetProperty(AbstractCallSite.java:307)
+	at Script1541737622831.run(Script1541737622831.groovy:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542871483879.run(TempTestSuite1542871483879.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-22 15:25:25 - [TEST_CASE][ERROR] - Test Cases/ucf88_tc/backoffice/odds history/oddsHistory_auto_tc: Test Cases/ucf88_tc/backoffice/odds history/oddsHistory_auto_tc FAILED because (of) (Stack trace: groovy.lang.MissingPropertyException: No such property: ArenaName_Acronym for class: Script1541737622831
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:53)
+	at org.codehaus.groovy.runtime.callsite.PogoGetPropertySite.getProperty(PogoGetPropertySite.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGroovyObjectGetProperty(AbstractCallSite.java:307)
+	at Script1541737622831.run(Script1541737622831.groovy:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542871483879.run(TempTestSuite1542871483879.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-22 15:25:25 - [TEST_STEP][PASSED] - mjpack.loginBackoffice.getLogin: mjpack.loginBackoffice.getLogin is PASSED
+
+2018-11-22 15:25:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-22 15:25:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-22 15:25:29 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com/login' successfully
+
+2018-11-22 15:25:30 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-22 15:25:30 - [MESSAGE][PASSED] - Text 'janine' is set on object 'Object Repository/ucf88_or/backoffice/login_or/input_username_bo'
+
+2018-11-22 15:25:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/ucf88_or/backoffice/login_or/input_password_bo'
+
+2018-11-22 15:25:32 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/login_or/button_login_bo' is clicked on
+
+2018-11-22 15:25:32 - [MESSAGE][PASSED] - Object 'Object Repository/ucf88_or/backoffice/header_or/span_admin' is present
+
+2018-11-22 15:25:32 - [MESSAGE][PASSED] - mjpack.loginBackoffice.getLogin is PASSED
+
+2018-11-22 15:25:32 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/ucf88_or/backoffice/header_or/span_betting' is hovered
+
+2018-11-22 15:25:32 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/header_or/span_betting' is hovered
+
+2018-11-22 15:25:32 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-22 15:25:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-22 15:25:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/header_or/span_oddHistory' is clicked on
+
+2018-11-22 15:25:34 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/header_or/span_oddHistory' is clicked on
+
+2018-11-22 15:25:34 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-22 15:25:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-22 15:25:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/oddsHistory_or/span_selectArena ' is clicked on
+
+2018-11-22 15:25:35 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/oddsHistory_or/span_selectArena ' is clicked on
+
+2018-11-22 15:25:35 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-22 15:25:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-22 15:25:36 - [TEST_STEP][PASSED] - setText: Finding Test Object with id 'Object Repository/ucf88_or/backoffice/oddsHistory_or/input_arenaName']]></system-out>
+         <system-err><![CDATA[2018-11-22 15:25:25 - [TEST_CASE][ERROR] - Test Cases/ucf88_tc/backoffice/odds history/oddsHistory_auto_tc: Test Cases/ucf88_tc/backoffice/odds history/oddsHistory_auto_tc FAILED because (of) (Stack trace: groovy.lang.MissingPropertyException: No such property: ArenaName_Acronym for class: Script1541737622831
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:53)
+	at org.codehaus.groovy.runtime.callsite.PogoGetPropertySite.getProperty(PogoGetPropertySite.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGroovyObjectGetProperty(AbstractCallSite.java:307)
+	at Script1541737622831.run(Script1541737622831.groovy:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542871483879.run(TempTestSuite1542871483879.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-22 15:24:46 - [TEST_SUITE][ERROR] - oddsHistory_auto_ts: Test Cases/ucf88_tc/backoffice/odds history/oddsHistory_auto_tc FAILED because (of) (Stack trace: groovy.lang.MissingPropertyException: No such property: ArenaName_Acronym for class: Script1541737622831
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:53)
+	at org.codehaus.groovy.runtime.callsite.PogoGetPropertySite.getProperty(PogoGetPropertySite.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGroovyObjectGetProperty(AbstractCallSite.java:307)
+	at Script1541737622831.run(Script1541737622831.groovy:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542871483879.run(TempTestSuite1542871483879.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-11-22 15:24:46 - [TEST_SUITE][ERROR] - oddsHistory_auto_ts: Test Cases/ucf88_tc/backoffice/odds history/oddsHistory_auto_tc FAILED because (of) (Stack trace: groovy.lang.MissingPropertyException: No such property: ArenaName_Acronym for class: Script1541737622831
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:53)
+	at org.codehaus.groovy.runtime.callsite.PogoGetPropertySite.getProperty(PogoGetPropertySite.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGroovyObjectGetProperty(AbstractCallSite.java:307)
+	at Script1541737622831.run(Script1541737622831.groovy:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542871483879.run(TempTestSuite1542871483879.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

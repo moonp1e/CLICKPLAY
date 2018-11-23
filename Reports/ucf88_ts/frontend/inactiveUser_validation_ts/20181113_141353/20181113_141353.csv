@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+inactiveUser_validation_ts,Chrome 70.0.3538.102,,2018-11-13 14:13:55,2018-11-13 14:14:05,10.541s,PASSED
+,,,,,,
+Test Cases/ucf88_tc/frontend/login/inactiveUser_validation_tc,Chrome 70.0.3538.102,Check that inactive user is not allowed to login in frontend.,2018-11-13 14:13:55,2018-11-13 14:14:04,9.611s,PASSED
+openBrowser,Chrome 70.0.3538.102,,2018-11-13 14:13:55,2018-11-13 14:13:58,2.848s,PASSED
+maximizeWindow,Chrome 70.0.3538.102,,2018-11-13 14:13:58,2018-11-13 14:13:59,1.152s,PASSED
+navigateToUrl,Chrome 70.0.3538.102,,2018-11-13 14:13:59,2018-11-13 14:14:01,1.732s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-13 14:14:01,2018-11-13 14:14:01,0.189s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-13 14:14:01,2018-11-13 14:14:02,1.019s,PASSED
+setEncryptedText,Chrome 70.0.3538.102,,2018-11-13 14:14:02,2018-11-13 14:14:02,0.156s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-13 14:14:02,2018-11-13 14:14:03,1.002s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-13 14:14:03,2018-11-13 14:14:03,0.088s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-13 14:14:03,2018-11-13 14:14:04,1.003s,PASSED
+focus,Chrome 70.0.3538.102,,2018-11-13 14:14:04,2018-11-13 14:14:04,0.065s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-13 14:14:04,2018-11-13 14:14:04,0.045s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-13 14:14:04,2018-11-13 14:14:04,0.060s,PASSED

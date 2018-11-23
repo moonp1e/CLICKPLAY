@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+oddsType_ts,Chrome 70.0.3538.102,,2018-11-20 12:37:52,2018-11-20 12:38:06,14.077s,FAILED
+,,,,,,
+Test Cases/ucf88_tc/frontend/oddsType/oddsType,Chrome 70.0.3538.102,,2018-11-20 12:37:52,2018-11-20 12:38:05,12.887s,FAILED
+mjpack.loginFrontend.getLogin,Chrome 70.0.3538.102,,2018-11-20 12:37:53,2018-11-20 12:38:01,8.478s,PASSED
+"Statement - arenaPresent = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ucf88_or/frontend/betting/button_arena), 2)",Chrome 70.0.3538.102,,2018-11-20 12:38:01,2018-11-20 12:38:04,2.627s,PASSED
+"Statement - matchPresent = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ucf88_or/frontend/oddsType/iframe_verifyOpenMatch), 2, OPTIONAL)",Chrome 70.0.3538.102,,2018-11-20 12:38:04,2018-11-20 12:38:04,0.024s,PASSED
+Statement - If (arenaPresent && matchPresent),Chrome 70.0.3538.102,,2018-11-20 12:38:04,2018-11-20 12:38:04,0.155s,PASSED
+selectOptionByLabel,Chrome 70.0.3538.102,,2018-11-20 12:38:04,2018-11-20 12:38:04,0.118s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-20 12:38:04,2018-11-20 12:38:05,1.001s,PASSED
+verifyElementAttributeValue,Chrome 70.0.3538.102,,2018-11-20 12:38:05,2018-11-20 12:38:05,0.090s,FAILED

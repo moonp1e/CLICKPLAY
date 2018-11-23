@@ -19,19 +19,17 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('http://dev-admin.ucf88.com/login')
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.setText(findTestObject('ucf88_or/backoffice/login_or/input_username_bo'), 'test.inactiveUser')
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.setEncryptedText(findTestObject('ucf88_or/backoffice/login_or/input_password_bo'), 'CSt51UwWECc=')
 
 WebUI.click(findTestObject('ucf88_or/backoffice/login_or/button_login_bo'))
 
-WebUI.focus(findTestObject(null))
-
-WebUI.verifyElementText(findTestObject(null), '')
+WebUI.verifyElementText(findTestObject('ucf88_or/backoffice/login_or/li_inactiveMessage'), 'Account is inactive')
 
 WebUI.delay(1)
 

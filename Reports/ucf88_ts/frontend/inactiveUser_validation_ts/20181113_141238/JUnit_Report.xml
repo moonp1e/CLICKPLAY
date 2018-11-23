@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="inactiveUser_validation_ts" time="10" tests="1" failures="0" errors="0">
+   <testsuite name="inactiveUser_validation_ts" tests="1" failures="0" errors="0" time="10" timestamp="2018-11-13 14:12:40" hostname="janine.bautista - J9" id="Test Suites/ucf88_ts/frontend/inactiveUser_validation_ts">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\janine.bautista\\git\\CLICKPLAY\\Reports\\ucf88_ts\\frontend\\inactiveUser_validation_ts\\20181113_141238"/>
+         <property name="logFiles" value="C:\\Users\\janine.bautista\\git\\CLICKPLAY\\Reports\\ucf88_ts\\frontend\\inactiveUser_validation_ts\\20181113_141238\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="janine.bautista - J9"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="172.16.8.107"/>
+         <property name="sessionId" value="c55e036c7f9b0fe67fc7d0b0157edb2c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ucf88_tc/frontend/login/inactiveUser_validation_tc" classname="Test Cases/ucf88_tc/frontend/login/inactiveUser_validation_tc" status="PASSED">
+         <system-out><![CDATA[2018-11-13 14:12:40 - [TEST_CASE][PASSED] - Test Cases/ucf88_tc/frontend/login/inactiveUser_validation_tc: Test Cases/ucf88_tc/frontend/login/inactiveUser_validation_tc
+
+2018-11-13 14:12:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-13 14:12:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-13 14:12:43 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-13 14:12:44 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-13 14:12:44 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://dev-operator.ucf88.com/#/' successfully
+
+2018-11-13 14:12:46 - [MESSAGE][PASSED] - Navigate to 'http://dev-operator.ucf88.com/#/' successfully
+
+2018-11-13 14:12:46 - [TEST_STEP][PASSED] - setText: Text 'test.inactiveUser' is set on object 'Object Repository/ucf88_or/frontend/login_or/input_username_fe'
+
+2018-11-13 14:12:46 - [MESSAGE][PASSED] - Text 'test.inactiveUser' is set on object 'Object Repository/ucf88_or/frontend/login_or/input_username_fe'
+
+2018-11-13 14:12:46 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-13 14:12:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-13 14:12:47 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/ucf88_or/frontend/login_or/input_password_fe'
+
+2018-11-13 14:12:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/ucf88_or/frontend/login_or/input_password_fe'
+
+2018-11-13 14:12:47 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-13 14:12:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-13 14:12:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/frontend/login_or/button_login_fe' is clicked on
+
+2018-11-13 14:12:49 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/frontend/login_or/button_login_fe' is clicked on
+
+2018-11-13 14:12:49 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-13 14:12:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-13 14:12:50 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/ucf88_or/frontend/login_or/div_sysMsg' is focused
+
+2018-11-13 14:12:50 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/frontend/login_or/div_sysMsg' is focused
+
+2018-11-13 14:12:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ucf88_or/frontend/login_or/div_inactiveTxt' are matched.
+
+2018-11-13 14:12:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ucf88_or/frontend/login_or/div_inactiveTxt' are matched.
+
+2018-11-13 14:12:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/frontend/login_or/button_closeSysMsg' is clicked on
+
+2018-11-13 14:12:50 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/frontend/login_or/button_closeSysMsg' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-13 14:12:40 - [TEST_SUITE][PASSED] - inactiveUser_validation_ts: Test Cases/ucf88_tc/frontend/login/inactiveUser_validation_tc]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="oddsHistory_manual_withoutMatch_ts" time="24" tests="1" failures="0" errors="0">
+   <testsuite name="oddsHistory_manual_withoutMatch_ts" tests="1" failures="0" errors="0" time="24" timestamp="2018-11-08 17:32:29" hostname="janine.bautista - J9" id="Test Suites/ucf88_ts/backoffice/oddsHistory_manual_withoutMatch_ts">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\janine.bautista\\git\\CLICKPLAY\\Reports\\ucf88_ts\\backoffice\\oddsHistory_manual_withoutMatch_ts\\20181108_173227"/>
+         <property name="logFiles" value="C:\\Users\\janine.bautista\\git\\CLICKPLAY\\Reports\\ucf88_ts\\backoffice\\oddsHistory_manual_withoutMatch_ts\\20181108_173227\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="janine.bautista - J9"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="172.16.8.107"/>
+         <property name="sessionId" value="a55889aef664be02f9ac3f6f936c718e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ucf88_tc/backoffice/odds history/oddsHistory_manual_tc" classname="Test Cases/ucf88_tc/backoffice/odds history/oddsHistory_manual_tc" status="PASSED">
+         <system-out><![CDATA[2018-11-08 17:32:29 - [TEST_CASE][PASSED] - Test Cases/ucf88_tc/backoffice/odds history/oddsHistory_manual_tc: Test Cases/ucf88_tc/backoffice/odds history/oddsHistory_manual_tc
+
+2018-11-08 17:32:29 - [TEST_STEP][PASSED] - errpack.loginBackoffice.getLogin: errpack.loginBackoffice.getLogin is PASSED
+
+2018-11-08 17:32:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-08 17:32:34 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-08 17:32:35 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com/login' successfully
+
+2018-11-08 17:32:36 - [MESSAGE][PASSED] - Text 'errorman' is set on object 'Object Repository/ucf88_or/backoffice/login_or/input_username_bo'
+
+2018-11-08 17:32:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/ucf88_or/backoffice/login_or/input_password_bo'
+
+2018-11-08 17:32:38 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/login_or/button_login_bo' is clicked on
+
+2018-11-08 17:32:38 - [MESSAGE][PASSED] - errpack.loginBackoffice.getLogin is PASSED
+
+2018-11-08 17:32:38 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/ucf88_or/backoffice/header_or/span_Betting' is hovered
+
+2018-11-08 17:32:38 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/header_or/span_Betting' is hovered
+
+2018-11-08 17:32:38 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-08 17:32:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-08 17:32:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/header_or/span_oddHistory' is clicked on
+
+2018-11-08 17:32:40 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/header_or/span_oddHistory' is clicked on
+
+2018-11-08 17:32:40 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-08 17:32:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-08 17:32:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/oddsHistory_or/span_selectArena ' is clicked on
+
+2018-11-08 17:32:41 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/oddsHistory_or/span_selectArena ' is clicked on
+
+2018-11-08 17:32:41 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-08 17:32:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-08 17:32:42 - [TEST_STEP][PASSED] - setText: Text 'ARENA_TEST - A1' is set on object 'Object Repository/ucf88_or/backoffice/oddsHistory_or/input_arenaName'
+
+2018-11-08 17:32:43 - [MESSAGE][PASSED] - Text 'ARENA_TEST - A1' is set on object 'Object Repository/ucf88_or/backoffice/oddsHistory_or/input_arenaName'
+
+2018-11-08 17:32:43 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-08 17:32:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-08 17:32:44 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/ucf88_or/backoffice/oddsHistory_or/input_arenaName'
+
+2018-11-08 17:32:44 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ucf88_or/backoffice/oddsHistory_or/input_arenaName'
+
+2018-11-08 17:32:44 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-08 17:32:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-08 17:32:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/oddsHistory_or/span_selectMatch' is clicked on
+
+2018-11-08 17:32:45 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/oddsHistory_or/span_selectMatch' is clicked on
+
+2018-11-08 17:32:45 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-08 17:32:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-08 17:32:46 - [TEST_STEP][PASSED] - setText: Text 'F1' is set on object 'Object Repository/ucf88_or/backoffice/oddsHistory_or/input_arenaName'
+
+2018-11-08 17:32:46 - [MESSAGE][PASSED] - Text 'F1' is set on object 'Object Repository/ucf88_or/backoffice/oddsHistory_or/input_arenaName'
+
+2018-11-08 17:32:46 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-08 17:32:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-08 17:32:47 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/ucf88_or/backoffice/oddsHistory_or/input_arenaName'
+
+2018-11-08 17:32:47 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ucf88_or/backoffice/oddsHistory_or/input_arenaName'
+
+2018-11-08 17:32:47 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-08 17:32:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-08 17:32:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ucf88_or/backoffice/oddsHistory_or/Page_Odds History - ucf88/a_Search' is clicked on
+
+2018-11-08 17:32:48 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/backoffice/oddsHistory_or/Page_Odds History - ucf88/a_Search' is clicked on
+
+2018-11-08 17:32:48 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-08 17:32:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-08 17:32:49 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'ARENA_TEST - A1' is present on page 
+
+2018-11-08 17:32:50 - [MESSAGE][PASSED] - Text 'ARENA_TEST - A1' is present on page 
+
+2018-11-08 17:32:50 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-08 17:32:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-08 17:32:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ucf88_or/backoffice/oddsHistory_or/oddsNew_meron' are matched.
+
+2018-11-08 17:32:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ucf88_or/backoffice/oddsHistory_or/oddsNew_meron' are matched.
+
+2018-11-08 17:32:51 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-08 17:32:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-08 17:32:52 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ucf88_or/backoffice/oddsHistory_or/oddsNew_wala' are matched.
+
+2018-11-08 17:32:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ucf88_or/backoffice/oddsHistory_or/oddsNew_wala' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-08 17:32:29 - [TEST_SUITE][PASSED] - oddsHistory_manual_withoutMatch_ts: Test Cases/ucf88_tc/backoffice/odds history/oddsHistory_manual_tc]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

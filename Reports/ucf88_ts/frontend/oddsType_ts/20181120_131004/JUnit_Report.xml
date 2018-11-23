@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="oddsType_ts" time="20" tests="1" failures="0" errors="0">
+   <testsuite name="oddsType_ts" tests="1" failures="0" errors="0" time="20" timestamp="2018-11-20 13:10:05" hostname="janine.bautista - J9" id="Test Suites/ucf88_ts/frontend/oddsType_ts">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\janine.bautista\\git\\CLICKPLAY\\Reports\\ucf88_ts\\frontend\\oddsType_ts\\20181120_131004"/>
+         <property name="logFiles" value="C:\\Users\\janine.bautista\\git\\CLICKPLAY\\Reports\\ucf88_ts\\frontend\\oddsType_ts\\20181120_131004\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="janine.bautista - J9"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="172.16.8.107"/>
+         <property name="sessionId" value="16695c8ba103d30b5ffecc1408ca9f2a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ucf88_tc/frontend/oddsType/oddsType" classname="Test Cases/ucf88_tc/frontend/oddsType/oddsType" status="PASSED">
+         <system-out><![CDATA[2018-11-20 13:10:06 - [TEST_CASE][PASSED] - Test Cases/ucf88_tc/frontend/oddsType/oddsType: Test Cases/ucf88_tc/frontend/oddsType/oddsType
+
+2018-11-20 13:10:06 - [TEST_STEP][PASSED] - mjpack.loginFrontend.getLogin: mjpack.loginFrontend.getLogin is PASSED
+
+2018-11-20 13:10:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-20 13:10:11 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-20 13:10:13 - [MESSAGE][PASSED] - Navigate to 'http://dev-operator.ucf88.com/#/' successfully
+
+2018-11-20 13:10:13 - [MESSAGE][PASSED] - Text 'janine' is set on object 'Object Repository/ucf88_or/frontend/login_or/input_username_fe'
+
+2018-11-20 13:10:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-20 13:10:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/ucf88_or/frontend/login_or/input_password_fe'
+
+2018-11-20 13:10:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-20 13:10:16 - [MESSAGE][PASSED] - Object: 'Object Repository/ucf88_or/frontend/login_or/button_login_fe' is clicked on
+
+2018-11-20 13:10:16 - [MESSAGE][PASSED] - mjpack.loginFrontend.getLogin is PASSED
+
+2018-11-20 13:10:16 - [TEST_STEP][PASSED] - Statement - arenaPresent = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ucf88_or/frontend/betting/button_arena), 2): Object 'Object Repository/ucf88_or/frontend/betting/button_arena' is present
+
+2018-11-20 13:10:19 - [MESSAGE][PASSED] - Object 'Object Repository/ucf88_or/frontend/betting/button_arena' is present
+
+2018-11-20 13:10:19 - [TEST_STEP][PASSED] - Statement - matchPresent = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ucf88_or/frontend/oddsType/button_verifyOpenMatch), 2, OPTIONAL): Object 'Object Repository/ucf88_or/frontend/oddsType/button_verifyOpenMatch' is present
+
+2018-11-20 13:10:20 - [MESSAGE][PASSED] - Object 'Object Repository/ucf88_or/frontend/oddsType/button_verifyOpenMatch' is present
+
+2018-11-20 13:10:20 - [TEST_STEP][PASSED] - Statement - If (arenaPresent && matchPresent): Delayed 1 second(s)
+
+2018-11-20 13:10:20 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Malay' are selected in object 'Object Repository/ucf88_or/frontend/oddsType/select_oddsDrpdwn' 
+
+2018-11-20 13:10:20 - [MESSAGE][PASSED] - All options with label 'Malay' are selected in object 'Object Repository/ucf88_or/frontend/oddsType/select_oddsDrpdwn' 
+
+2018-11-20 13:10:20 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-20 13:10:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-20 13:10:21 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ucf88_or/frontend/oddsType/button_malayOdds' are matched.
+
+2018-11-20 13:10:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ucf88_or/frontend/oddsType/button_malayOdds' are matched.
+
+2018-11-20 13:10:21 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-20 13:10:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-20 13:10:22 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Decimal' are selected in object 'Object Repository/ucf88_or/frontend/oddsType/select_oddsDrpdwn' 
+
+2018-11-20 13:10:22 - [MESSAGE][PASSED] - All options with label 'Decimal' are selected in object 'Object Repository/ucf88_or/frontend/oddsType/select_oddsDrpdwn' 
+
+2018-11-20 13:10:22 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-20 13:10:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-20 13:10:23 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ucf88_or/frontend/oddsType/button_decimalOdds' are matched.
+
+2018-11-20 13:10:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ucf88_or/frontend/oddsType/button_decimalOdds' are matched.
+
+2018-11-20 13:10:23 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-20 13:10:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-20 13:10:24 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Hongkong' are selected in object 'Object Repository/ucf88_or/frontend/oddsType/select_oddsDrpdwn' 
+
+2018-11-20 13:10:24 - [MESSAGE][PASSED] - All options with label 'Hongkong' are selected in object 'Object Repository/ucf88_or/frontend/oddsType/select_oddsDrpdwn' 
+
+2018-11-20 13:10:24 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-20 13:10:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-20 13:10:25 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ucf88_or/frontend/oddsType/button_hongkongOdds' are matched.
+
+2018-11-20 13:10:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ucf88_or/frontend/oddsType/button_hongkongOdds' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-20 13:10:05 - [TEST_SUITE][PASSED] - oddsType_ts: Test Cases/ucf88_tc/frontend/oddsType/oddsType]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

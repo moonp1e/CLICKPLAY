@@ -1,0 +1,70 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+oddsHistory_auto_ts,Chrome 70.0.3538.102,,2018-11-22 15:20:29,2018-11-22 15:21:21,51.598s,ERROR
+,,,,,,
+Test Cases/ucf88_tc/backoffice/createArena/createArena_tc,Chrome 70.0.3538.102,,2018-11-22 15:20:30,2018-11-22 15:20:43,13.553s,PASSED
+mjpack.loginBackoffice.getLogin,Chrome 70.0.3538.102,,2018-11-22 15:20:30,2018-11-22 15:20:38,7.954s,PASSED
+mouseOver,Chrome 70.0.3538.102,,2018-11-22 15:20:38,2018-11-22 15:20:38,0.106s,PASSED
+verifyElementPresent,Chrome 70.0.3538.102,,2018-11-22 15:20:38,2018-11-22 15:20:38,0.023s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 15:20:38,2018-11-22 15:20:39,0.887s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 15:20:39,2018-11-22 15:20:39,0.084s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-22 15:20:39,2018-11-22 15:20:40,1.020s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 15:20:40,2018-11-22 15:20:40,0.202s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 15:20:40,2018-11-22 15:20:40,0.099s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 15:20:40,2018-11-22 15:20:40,0.115s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 15:20:40,2018-11-22 15:20:40,0.100s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-22 15:20:40,2018-11-22 15:20:41,1.002s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 15:20:41,2018-11-22 15:20:42,0.690s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-22 15:20:42,2018-11-22 15:20:43,1.002s,PASSED
+,,,,,,
+Test Cases/ucf88_tc/backoffice/createMatch/createMatch_tc,Chrome 70.0.3538.102,,2018-11-22 15:20:43,2018-11-22 15:20:56,12.638s,PASSED
+verifyElementPresent,Chrome 70.0.3538.102,,2018-11-22 15:20:43,2018-11-22 15:20:43,0.022s,PASSED
+mouseOver,Chrome 70.0.3538.102,,2018-11-22 15:20:43,2018-11-22 15:20:43,0.036s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 15:20:43,2018-11-22 15:20:44,0.742s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 15:20:44,2018-11-22 15:20:44,0.127s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-22 15:20:44,2018-11-22 15:20:45,1.003s,PASSED
+verifyElementPresent,Chrome 70.0.3538.102,,2018-11-22 15:20:45,2018-11-22 15:20:45,0.044s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-22 15:20:45,2018-11-22 15:20:46,1.001s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 15:20:46,2018-11-22 15:20:46,0.106s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-22 15:20:46,2018-11-22 15:20:47,1.003s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 15:20:47,2018-11-22 15:20:48,0.281s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-22 15:20:48,2018-11-22 15:20:49,1.003s,PASSED
+sendKeys,Chrome 70.0.3538.102,,2018-11-22 15:20:49,2018-11-22 15:20:49,0.081s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 15:20:49,2018-11-22 15:20:49,0.115s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 15:20:49,2018-11-22 15:20:49,0.106s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 15:20:49,2018-11-22 15:20:49,0.115s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 15:20:49,2018-11-22 15:20:49,0.127s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 15:20:49,2018-11-22 15:20:49,0.136s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 15:20:49,2018-11-22 15:20:49,0.122s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 15:20:49,2018-11-22 15:20:50,0.111s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 15:20:50,2018-11-22 15:20:50,0.106s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 15:20:50,2018-11-22 15:20:51,0.923s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 15:20:51,2018-11-22 15:20:51,0.166s,PASSED
+switchToWindowIndex,Chrome 70.0.3538.102,,2018-11-22 15:20:51,2018-11-22 15:20:51,0.027s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-22 15:20:51,2018-11-22 15:20:52,1.003s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 15:20:52,2018-11-22 15:20:53,1.138s,PASSED
+waitForElementVisible,Chrome 70.0.3538.102,,2018-11-22 15:20:53,2018-11-22 15:20:54,0.611s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 15:20:54,2018-11-22 15:20:54,0.076s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-22 15:20:54,2018-11-22 15:20:56,2.001s,PASSED
+closeWindowIndex,Chrome 70.0.3538.102,,2018-11-22 15:20:56,2018-11-22 15:20:56,0.059s,PASSED
+switchToWindowIndex,Chrome 70.0.3538.102,,2018-11-22 15:20:56,2018-11-22 15:20:56,0.015s,PASSED
+,,,,,,
+Test Cases/ucf88_tc/frontend/betting/betting,Chrome 70.0.3538.102,,2018-11-22 15:20:56,2018-11-22 15:21:08,12.165s,PASSED
+mjpack.loginFrontend.getLogin,Chrome 70.0.3538.102,,2018-11-22 15:20:56,2018-11-22 15:21:04,7.847s,PASSED
+verifyElementPresent,Chrome 70.0.3538.102,,2018-11-22 15:21:04,2018-11-22 15:21:05,1.013s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-22 15:21:05,2018-11-22 15:21:07,2.001s,PASSED
+"Statement - tempBalance = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ucf88_or/frontend/betting/span_balance), CONTINUE_ON_FAILURE)",Chrome 70.0.3538.102,,2018-11-22 15:21:07,2018-11-22 15:21:07,0.095s,PASSED
+"Statement - balance = tempBalance.replace("","", """")",Chrome 70.0.3538.102,,2018-11-22 15:21:07,2018-11-22 15:21:07,0.001s,PASSED
+Statement - balance = java.lang.Float.valueOf(balance),Chrome 70.0.3538.102,,2018-11-22 15:21:07,2018-11-22 15:21:07,0.003s,PASSED
+"Statement - arenaPresent = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ucf88_or/frontend/betting/button_arena), 1)",Chrome 70.0.3538.102,,2018-11-22 15:21:07,2018-11-22 15:21:07,0.046s,PASSED
+"Statement - matchPresent = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ucf88_or/frontend/betting/strong_matchDetails), 1, OPTIONAL)",Chrome 70.0.3538.102,,2018-11-22 15:21:07,2018-11-22 15:21:07,0.045s,PASSED
+Statement - If (balance > 100 && arenaPresent && matchPresent),Chrome 70.0.3538.102,,2018-11-22 15:21:07,2018-11-22 15:21:08,0.907s,PASSED
+,,,,,,
+Test Cases/ucf88_tc/backoffice/odds history/oddsHistory_auto_tc,Chrome 70.0.3538.102,,2018-11-22 15:21:08,2018-11-22 15:21:20,12.133s,ERROR
+mjpack.loginBackoffice.getLogin,Chrome 70.0.3538.102,,2018-11-22 15:21:08,2018-11-22 15:21:16,8.051s,PASSED
+mouseOver,Chrome 70.0.3538.102,,2018-11-22 15:21:16,2018-11-22 15:21:16,0.042s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-22 15:21:16,2018-11-22 15:21:17,1.003s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 15:21:17,2018-11-22 15:21:18,0.702s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-22 15:21:18,2018-11-22 15:21:19,1.000s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-22 15:21:19,2018-11-22 15:21:19,0.112s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-22 15:21:19,2018-11-22 15:21:20,1.003s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-22 15:21:20,2018-11-22 15:21:20,0.000s,PASSED

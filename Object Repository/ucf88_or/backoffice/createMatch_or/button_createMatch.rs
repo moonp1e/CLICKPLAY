@@ -9,11 +9,15 @@
          <key>XPATH</key>
          <value>//div[@id='sports']/div/div[3]/button</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button [@class=&quot;btn btn-success btn-xs btn-circle&quot;]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -34,14 +38,14 @@
       <value>modal</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>#add-match</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -50,11 +54,11 @@
                             </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;page-header-fixed page-container-bg-solid&quot;]/div[@class=&quot;page-wrapper&quot;]/div[@class=&quot;page-wrapper-row full-height&quot;]/div[@class=&quot;page-wrapper-middle&quot;]/div[@class=&quot;page-container&quot;]/div[@class=&quot;page-content-wrapper&quot;]/div[@class=&quot;page-content&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;page-content-inner&quot;]/div[@class=&quot;portlet light&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;tab-content&quot;]/div[@id=&quot;sports&quot;]/div[@class=&quot;portlet light&quot;]/div[@class=&quot;actions left&quot;]/button[@class=&quot;btn btn-success btn-xs btn-circle&quot;]</value>
+      <value>//button [@class=&quot;btn btn-success btn-xs btn-circle&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

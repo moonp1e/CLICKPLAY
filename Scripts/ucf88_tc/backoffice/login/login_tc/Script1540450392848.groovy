@@ -19,9 +19,9 @@ WebUI.navigateToUrl('http://dev-admin.ucf88.com/login')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('ucf88_or/backoffice/login_or/input_username_bo'), 'admin')
+WebUI.setText(findTestObject('ucf88_or/backoffice/login_or/input_username_bo'), 'janine')
 
-WebUI.setEncryptedText(findTestObject('ucf88_or/backoffice/login_or/input_password_bo'), 'SFTQUhjBfIY=')
+WebUI.setEncryptedText(findTestObject('ucf88_or/backoffice/login_or/input_password_bo'), 'CSt51UwWECc=')
 
 WebUI.click(findTestObject('ucf88_or/backoffice/login_or/button_login_bo'))
 
