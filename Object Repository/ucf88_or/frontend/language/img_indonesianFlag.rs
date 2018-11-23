@@ -6,6 +6,10 @@
    <elementGuidId>4b6f020b-5b79-4bb2-81f8-44df6d4f2321</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//img [@alt='Indonesian'][count(. | //*[@ref_element = 'Object Repository/ucf88_or/frontend/language/iframe_indoFlag']) = count(//*[@ref_element = 'Object Repository/ucf88_or/frontend/language/iframe_indoFlag'])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div/div/div/div/div[3]/div/div/div/div/div[2]/div/ul/li[3]/a/img</value>
       </entry>
@@ -13,14 +17,14 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>

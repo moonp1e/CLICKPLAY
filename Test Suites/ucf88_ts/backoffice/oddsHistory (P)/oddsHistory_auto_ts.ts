@@ -4,7 +4,7 @@
    <name>oddsHistory_auto_ts</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-22T16:22:29</lastRun>
+   <lastRun>2018-11-23T09:51:43</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

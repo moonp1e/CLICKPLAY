@@ -35,3 +35,5 @@ WebUI.click(findTestObject('ucf88_or/frontend/language/img_thaiFlag'))
 
 WebUI.verifyElementText(findTestObject('ucf88_or/frontend/language/a_ThaiWord'), 'ผล')
 
+WebUI.closeBrowser()
+

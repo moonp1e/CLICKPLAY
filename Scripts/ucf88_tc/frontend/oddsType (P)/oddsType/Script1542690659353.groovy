@@ -16,9 +16,10 @@ import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
 CustomKeywords.'mjpack.loginFrontend.getLogin'()
 
-arenaPresent = WebUI.verifyElementPresent(findTestObject('ucf88_or/frontend/betting/button_arena'), 2)
+arenaPresent = WebUI.verifyElementPresent(findTestObject('ucf88_or/frontend/oddsType/i_activeArenaAndMatch'), 2)
 
-matchPresent = WebUI.verifyElementPresent(findTestObject('ucf88_or/frontend/oddsType/button_verifyOpenMatch_meronB'), 2, FailureHandling.OPTIONAL)
+matchPresent = WebUI.verifyElementPresent(findTestObject('ucf88_or/frontend/oddsType/button_verifyOpenMatch_meronB'), 2, 
+    FailureHandling.OPTIONAL)
 
 if (arenaPresent && matchPresent) {
     WebUI.selectOptionByLabel(findTestObject('ucf88_or/frontend/oddsType/select_oddsDrpdwn'), 'Malay', false)
@@ -29,14 +30,13 @@ if (arenaPresent && matchPresent) {
 
     WebUI.delay(1)
 } else {
-    WebUI.click(findTestObject('ucf88_or/frontend/oddsType/i_activeMatch'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('ucf88_or/frontend/oddsType/i_activeArenaAndMatch'), FailureHandling.STOP_ON_FAILURE)
 
     WebUI.delay(1)
 
     WebUI.selectOptionByLabel(findTestObject('ucf88_or/frontend/oddsType/select_oddsDrpdwn'), 'Malay', false)
 
     WebUI.delay(1)
-
 }
 
 WebUI.selectOptionByLabel(findTestObject('ucf88_or/frontend/oddsType/select_oddsDrpdwn'), 'Decimal', false)
@@ -52,4 +52,6 @@ WebUI.selectOptionByLabel(findTestObject('ucf88_or/frontend/oddsType/select_odds
 WebUI.delay(1)
 
 WebUI.verifyElementText(findTestObject('ucf88_or/frontend/oddsType/button_hongkongOdds'), '0.95')
+
+WebUI.closeBrowser()
 

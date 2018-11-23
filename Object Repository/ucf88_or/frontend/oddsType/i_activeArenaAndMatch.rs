@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i_activeMatch</name>
+   <name>i_activeArenaAndMatch</name>
    <tag></tag>
    <elementGuidId>fc77ee74-96f8-4ba7-affc-05f8832c3d44</elementGuidId>
    <selectorCollection>
