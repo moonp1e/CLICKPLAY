@@ -62,3 +62,5 @@ WebUI.delay(1)
 
 WebUI.verifyElementText(findTestObject('ucf88_or/backoffice/oddsHistory_or/oddsNew_wala_auto'), '0.96')
 
+WebUI.closeBrowser()
+

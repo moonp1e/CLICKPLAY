@@ -15,7 +15,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 //CustomKeywords.'mjpack.loginBackoffice.getLogin'()
-
 WebUI.mouseOver(findTestObject('ucf88_or/backoffice/header_or/span_betting'))
 
 WebUI.delay(1)
@@ -62,4 +61,5 @@ WebUI.delay(1)
 
 WebUI.verifyElementText(findTestObject('ucf88_or/backoffice/oddsHistory_or/oddsNew_wala'), '0.94')
 
+WebUI.closeBrowser()
 
